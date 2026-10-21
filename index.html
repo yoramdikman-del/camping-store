@@ -313,7 +313,7 @@ function imgFail(el){
   el.onerror = null; el.src = 'logo.png'; el.className = 'ph';
 }
 function card(p){
-  const price = p.price ? (p.variant ? 'כ-' : 'החל מ-') + Math.round(p.price) + '$' : '';
+  const price = p.price ? (p.variant ? 'כ־' : 'החל מ־') + '<bdi dir="ltr">' + Math.round(p.price) + '$</bdi>' : '';
   return `<article class="card">
     <div class="img">${p.img ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(p.img)}" alt="${esc(p.title)}" onerror="imgFail(this)">` : `<img class="ph" src="logo.png" alt="">`}${p.code ? `<span class="code-tag">${esc(p.code)}</span>` : ''}</div>
     <div class="body">
