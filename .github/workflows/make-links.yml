@@ -1,6 +1,9 @@
 name: קישורי שותפים למוצרים חדשים (ממתינים לאישור)
 
 on:
+  push:
+    branches: [main]
+    paths: ['links.request']
   workflow_dispatch: {}
 
 permissions:
