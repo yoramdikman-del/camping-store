@@ -1,0 +1,33 @@
+name: רענון שבועי של מוצרים
+
+on:
+  schedule:
+    - cron: '17 4 * * 0'   # כל יום ראשון ב-07:17 שעון ישראל (קיץ) / 06:17 (חורף)
+  workflow_dispatch: {}     # אפשר להריץ ידנית מלשונית Actions
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: בדיקת מוצרים מול אלי אקספרס
+        env:
+          ALI_APP_SECRET: ${{ secrets.ALI_APP_SECRET }}
+        run: python scripts/refresh.py
+      - name: פתיחת בקשת שינוי לאישור
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: weekly-refresh
+          delete-branch: true
+          commit-message: 'רענון שבועי של מוצרים'
+          title: 'רענון שבועי של מוצרים – מחכה לאישור'
+          body-path: data/refresh_report.md
+          add-paths: data/

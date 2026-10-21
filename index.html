@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>מוצרים לקמפינג וטיולים – חנות ציוד שטח</title>
+<meta name="description" content="ציוד לקמפינג, לטיולים ולפיקניק מחנויות רשמיות באלי אקספרס: אוהלים, שינה בשטח, בישול, תאורה ותרמילים, בעברית.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: shop shelf – sticky header with collection chips, product grid of white tiles on forest-tinted paper */
+:root{
+  --paper:#f3f4ee; --ink:#1f3a2e; --ink-soft:#54685d; --line:#d6dccf;
+  --card:#ffffff; --tile:#ffffff; --accent:#e8a33d; --accent-ink:#1f3a2e; --chip:#e4e9dc;
+  --good:#2f7d5b;
+  --f-display:"Rubik","Arial Hebrew","Segoe UI",Arial,sans-serif;
+  --f-body:"Rubik","Arial Hebrew","Segoe UI",Arial,sans-serif;
+  --f-code:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#141b2b; --ink:#eef1f7; --ink-soft:#a5afc4; --line:#2b3550;
+  --card:#1c2538; --tile:#ffffff; --accent:#f5a85a; --accent-ink:#141b2b; --chip:#25304a; --good:#6cc39b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#141b2b; --ink:#eef1f7; --ink-soft:#a5afc4; --line:#2b3550;
+  --card:#1c2538; --tile:#ffffff; --accent:#f5a85a; --accent-ink:#141b2b; --chip:#25304a; --good:#6cc39b; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:14px;padding-block:12px}
+.bar img{width:52px;height:52px;border-radius:50%;flex:none}
+.brand{min-width:0}
+.brand b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.25rem;letter-spacing:-.01em}
+.brand span{color:var(--ink-soft);font-size:.9rem}
+nav.cols{display:flex;gap:8px;overflow-x:auto;padding-bottom:12px;scrollbar-width:none}
+nav.cols a{flex:none;text-decoration:none;color:var(--ink-soft);font-size:.92rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+nav.cols a[aria-current]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+nav.cols a.soon{opacity:.55;pointer-events:none}
+.hero{padding-block:28px 8px;display:grid;gap:10px}
+.hero h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;margin:0;text-wrap:balance}
+.hero p{margin:0;max-width:62ch;color:var(--ink-soft)}
+.how{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;max-width:760px}
+.how .code{font-family:var(--f-code);background:var(--accent);color:var(--accent-ink);padding:2px 8px;border-radius:6px;white-space:nowrap}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-block:18px 6px}
+.search{flex:1 1 260px;min-width:0;display:flex}
+.search input{width:100%;font:inherit;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.95rem;cursor:pointer;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:8px 14px;border-radius:999px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:focus-visible,.buy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip small{opacity:.7;font-variant-numeric:tabular-nums}
+.count{color:var(--ink-soft);font-size:.9rem;padding-block:6px 0}
+section.group{padding-block:22px 6px}
+section.group h2{font-family:var(--f-display);font-size:1.35rem;margin:0 0 12px;display:flex;gap:10px;align-items:baseline}
+section.group h2 small{font-weight:400;font-size:.9rem;color:var(--ink-soft)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.img{background:var(--tile);aspect-ratio:1/1;max-width:100%;display:grid;place-items:center;position:relative}
+.img img{width:100%;height:100%;object-fit:contain}
+.img img.ph{width:38%;height:auto;opacity:.35}
+.code-tag{position:absolute;top:10px;inset-inline-start:10px;font-family:var(--f-code);font-size:.85rem;background:var(--ink);color:#fff;padding:3px 9px;border-radius:7px;direction:ltr}
+.body{padding:14px 14px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.kind{font-size:.78rem;font-weight:500;letter-spacing:.02em;color:var(--ink-soft)}
+.title{font-weight:700;font-size:1.02rem;line-height:1.35;margin:0}
+.title .b{direction:ltr;unicode-bidi:isolate}
+.fits{font-size:.9rem;color:var(--ink-soft)}
+.fits bdi{color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.86rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.meta .rate{color:var(--good);font-weight:500}
+.note{font-size:.82rem;background:var(--chip);border-radius:8px;padding:3px 8px;align-self:flex-start}
+.note.variant{font-weight:500}
+.buy{margin-top:auto;display:block;text-align:center;text-decoration:none;font-weight:700;background:var(--accent);color:var(--accent-ink);padding:11px 12px;border-radius:12px}
+.buy:hover{filter:brightness(1.05)}
+.empty{padding:30px 0;color:var(--ink-soft)}
+footer{margin-top:36px;border-top:1px solid var(--line);padding-block:22px 34px;color:var(--ink-soft);font-size:.9rem}
+footer p{margin:.3em 0;max-width:70ch}
+footer .copy{margin-top:14px;font-weight:500;color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:hover{transform:translateY(-2px)}}
+
+nav.cols button{flex:none;font:inherit;font-size:.92rem;cursor:pointer;color:var(--ink-soft);background:none;padding:6px 12px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+nav.cols button[aria-current="page"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+nav.cols button:disabled{opacity:.55;cursor:default}
+a.contact-link{margin-inline-start:auto;flex:none;text-decoration:none;font-size:.92rem;padding:6px 12px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-weight:700;white-space:nowrap}
+#about{margin-top:40px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px clamp(16px,3vw,32px)}
+#about h2{font-family:var(--f-display);margin:0 0 8px;font-size:1.5rem}
+#about p{margin:0 0 10px;max-width:70ch;line-height:1.7}
+#contact{margin-top:40px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px clamp(16px,3vw,32px)}
+#contact h2{font-family:var(--f-display);margin:0 0 4px;font-size:1.5rem}
+#contact > p{margin:0 0 16px;color:var(--ink-soft);max-width:62ch}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.form .full{grid-column:1/-1}
+.field{display:grid;gap:6px;min-width:0}
+.field label{font-weight:500;font-size:.95rem}
+.field input,.field select,.field textarea{font:inherit;width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.field textarea{min-height:120px;resize:vertical}
+.field :focus{outline:2px solid var(--accent);outline-offset:1px}
+.send{font:inherit;font-weight:700;cursor:pointer;border:0;background:var(--ink);color:var(--paper);padding:12px 22px;border-radius:12px;justify-self:start}
+.send:disabled{opacity:.6}
+.status{font-weight:500}
+.status.ok{color:var(--good)} .status.err{color:#c0392b}
+.hp{position:absolute;inset-inline-start:-9999px}
+a.social{flex:none;text-decoration:none;font-size:.92rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--ink);font-weight:500;white-space:nowrap}
+a.social:hover{background:var(--chip)}
+.follow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 14px}
+.follow b{color:var(--ink)}
+.follow a.wa{background:#1f8f4e;color:#fff}
+.follow a{text-decoration:none;font-weight:700;padding:9px 16px;border-radius:12px;background:var(--ink);color:var(--paper)}
+/* מבצעים וקופונים */
+.promo{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between;margin-top:18px;background:var(--ink);color:var(--paper);border-radius:14px;padding:12px 16px;text-decoration:none}
+.promo b{font-family:var(--f-display);font-size:1.1rem}
+.promo span.go{background:var(--accent);color:var(--accent-ink);font-weight:700;padding:6px 14px;border-radius:999px;white-space:nowrap}
+nav.cols button.deals-tab{border-color:var(--accent);color:var(--ink);font-weight:700}
+nav.cols button.deals-tab[aria-current="page"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+#deals{padding-block:28px 6px}
+#deals h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;margin:0 0 8px}
+#deals > p{margin:0 0 18px;color:var(--ink-soft);max-width:62ch}
+.event{background:var(--card);border:2px solid var(--accent);border-radius:18px;padding:18px 20px;margin-bottom:22px}
+.event h2{font-family:var(--f-display);margin:0 0 4px;font-size:1.4rem}
+.event .when{color:var(--ink-soft);font-weight:500}
+.event p{margin:.5em 0 0;max-width:70ch}
+.coupons{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.coupon{background:var(--card);border:2px dashed var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.coupon .off{font-family:var(--f-display);font-weight:800;font-size:1.35rem}
+.coupon .cond{color:var(--ink-soft);font-size:.92rem}
+.coupon .code-row{display:flex;gap:8px;align-items:center;margin-top:auto}
+.coupon code{flex:1;min-width:0;font-family:var(--f-code);font-size:1rem;background:var(--chip);border-radius:10px;padding:9px 10px;text-align:center;direction:ltr;overflow-wrap:anywhere}
+.coupon button{font:inherit;font-weight:700;cursor:pointer;border:0;background:var(--accent);color:var(--accent-ink);padding:9px 14px;border-radius:10px;white-space:nowrap}
+.coupon .valid{font-size:.82rem;color:var(--ink-soft)}
+.deals-note{font-size:.85rem;color:var(--ink-soft);margin-top:16px;max-width:75ch}
+/* מה מתאים למצלמה שלי */
+.finder-bar{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between;margin-top:14px;background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:12px 16px;text-decoration:none;color:var(--ink)}
+.finder-bar b{font-family:var(--f-display);font-size:1.1rem}
+.finder-bar span.go{background:var(--ink);color:var(--paper);font-weight:700;padding:6px 14px;border-radius:999px;white-space:nowrap}
+nav.cols button.cam-tab{border-color:var(--ink);color:var(--ink);font-weight:700}
+nav.cols button.cam-tab[aria-current="page"]{background:var(--ink);color:var(--paper)}
+#cam-res{scroll-margin-top:150px}
+@media (max-width:560px){#cam .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}#cam .body{padding:10px}#cam .title{font-size:.92rem}#cam .buy{font-size:.88rem;padding:9px 6px}}
+#cam{padding-block:28px 6px}
+#cam h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;margin:0 0 8px}
+#cam .lead{margin:0 0 18px;color:var(--ink-soft);max-width:62ch}
+.step{margin:0 0 18px}
+.step h2{font-family:var(--f-display);font-size:1.15rem;margin:0 0 10px}
+.picks{display:flex;flex-wrap:wrap;gap:8px}
+.picks button{font:inherit;font-size:.98rem;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:9px 16px;border-radius:12px}
+.picks button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.picks.models button{font-size:.92rem;padding:7px 12px;direction:ltr}
+.picks .sub{width:100%;font-size:.85rem;color:var(--ink-soft);margin-top:4px}
+.tier{padding-block:18px 6px}
+.tier > h2{font-family:var(--f-display);font-size:1.4rem;margin:0 0 4px}
+.tier > p{margin:0 0 12px;color:var(--ink-soft);font-size:.92rem}
+.tier h3{font-size:1.05rem;margin:18px 0 10px;color:var(--ink-soft)}
+.more-btn{font:inherit;font-weight:700;cursor:pointer;margin-top:12px;border:1px solid var(--ink);background:none;color:var(--ink);padding:9px 16px;border-radius:12px}
+.miss{background:var(--chip);border-radius:12px;padding:12px 14px;margin:6px 0 12px}
+.miss a{color:var(--ink);font-weight:700}
+@media (max-width:560px){.how{flex-direction:column;gap:4px}.brand span{display:none}.bar a.social{display:none}}
+/* תפריט קטגוריות בטלפון: כפתור אחד שפותח את כל הקטגוריות ברשת, במקום שורה שנחתכת בצד */
+.menu-btn{display:none}
+@media (max-width:560px){
+  .menu-btn{display:flex;align-items:center;gap:10px;width:100%;font:inherit;font-weight:700;font-size:1rem;cursor:pointer;text-align:start;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:12px}
+  .menu-btn .lbl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .menu-btn .lbl small{font-weight:400;color:var(--ink-soft);margin-inline-end:6px}
+  .menu-btn .arr{flex:none;transition:transform .15s ease}
+  header.menu-open .menu-btn .arr{transform:rotate(180deg)}
+  nav.cols{display:none}
+  header.menu-open nav.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;max-height:65vh;overflow-y:auto;padding-bottom:14px}
+  header.menu-open nav.cols button{white-space:normal;text-align:center;line-height:1.3;padding:10px 8px;border-radius:12px;font-size:.95rem}
+  header.menu-open nav.cols button.cam-tab,header.menu-open nav.cols button.deals-tab,header.menu-open nav.cols button.news-tab{grid-column:1/-1}
+  .hero{padding-block:16px 4px}
+  .finder-bar{margin-top:12px}
+}
+/* מה חדש השבוע */
+nav.cols button.news-tab{border-color:var(--good);color:var(--ink);font-weight:700}
+nav.cols button.news-tab[aria-current="page"]{background:var(--good);color:#fff;border-color:var(--good)}
+#news{padding-block:28px 6px}
+#news h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;margin:0 0 8px}
+#news .lead{margin:0 0 6px;color:var(--ink-soft);max-width:62ch}
+.issue-date{font-size:.9rem;color:var(--ink-soft);margin:0 0 4px}
+.issue-title{font-family:var(--f-display);font-size:1.3rem;margin:0 0 16px;max-width:60ch}
+.news-list{display:grid;gap:14px;max-width:820px}
+.news-item{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.news-item.tip{border:2px solid var(--good)}
+.news-item h3{font-family:var(--f-display);font-size:1.15rem;margin:0 0 6px}
+.news-item .model{display:inline-block;font-family:var(--f-code);font-size:.85rem;background:var(--chip);border-radius:8px;padding:2px 8px;margin-bottom:8px;direction:ltr;unicode-bidi:isolate}
+.news-item p{margin:0 0 8px;line-height:1.7;max-width:70ch}
+.news-item a.src{color:var(--ink);font-weight:700;font-size:.92rem}
+.news-item .links{display:flex;flex-wrap:wrap;gap:8px}
+.news-item .links a{text-decoration:none;font-size:.92rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--ink);background:var(--chip)}
+.news-item .vid{position:relative;aspect-ratio:16/9;margin:6px 0 10px;border-radius:12px;overflow:hidden;background:#000}
+.news-item .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.new-badge{font-size:.8rem;font-weight:700;background:var(--good);color:#fff;border-radius:8px;padding:3px 8px;align-self:flex-start}
+#news details{margin-top:26px;max-width:820px}
+#news summary{cursor:pointer;font-weight:700}
+/* פס "מה מתאים למצלמה שלי": שורה דקה אחת, כדי שהמוצרים יעלו למסך הראשון */
+.finder-bar{flex-wrap:nowrap;padding:8px 12px;border-width:1px;border-radius:12px}
+.finder-bar b{font-size:.98rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.finder-bar span.go{padding:5px 12px;font-size:.9rem}
+/* במחשב הלשונית כבר נראית בשורת הקטגוריות, אז הפס מיותר */
+@media (min-width:561px){.finder-bar{display:none}nav.cols{flex-wrap:wrap;overflow:visible}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="bar">
+      <img src="logo.png" alt="לוגו מוצרים לקמפינג וטיולים">
+      <div class="brand"><b>מוצרים לקמפינג וטיולים</b><span>ציוד שטח מחנויות רשמיות, נבדק ומסודר בעברית</span></div>
+      <a class="contact-link" href="#contact">צור קשר</a>
+      <a class="social" href="#about">אודות</a>
+      <a class="social" href="__FB_URL__" target="_blank" rel="noopener">פייסבוק</a>
+      <a class="social" href="__WA_URL__" target="_blank" rel="noopener">קבוצת ווצאפ</a>
+    </div>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="cols"><span aria-hidden="true">☰</span><span class="lbl" id="menu-lbl"><small>קטגוריה:</small>טוען…</span><span class="arr" aria-hidden="true">▾</span></button>
+    <nav class="cols" id="cols" aria-label="אוספים"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <a class="promo" id="promo" href="#deals" hidden></a>
+  <section id="deals" hidden aria-labelledby="deals-h"></section>
+  <section id="cam" hidden aria-labelledby="cam-h"></section>
+  <section id="news" hidden aria-labelledby="news-h"></section>
+  <div id="shop">
+  <div class="hero">
+    <h1 id="h1"></h1>
+    <p id="intro"></p>
+    <div class="how" id="how" hidden></div>
+  </div>
+
+  <div class="tools">
+    <label class="search" for="q"><input id="q" type="search" autocomplete="off"></label>
+    <div class="chips" id="chips" role="group" aria-label="סינון"></div>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div id="list"><p class="empty">טוען מוצרים…</p></div>
+  </div>
+
+  <section id="about" aria-labelledby="about-h">
+    <h2 id="about-h">אודות</h2>
+    <p>"מוצרים לקמפינג וטיולים" נולד מאהבה לטבע, לטיולים ולקמפינג, ומהרבה שעות של חיפוש ציוד באלי אקספרס.</p>
+    <p>באלי אקספרס יש אלפי מוצרים לכל צורך, ורבים מהם נראים כמעט זהים. לא תמיד ברור מה באמת איכותי, מה יחזיק מעמד בשטח ומה רק נראה טוב בתמונה.</p>
+    <p>בשביל זה בנינו את החנות: פלטפורמה חכמה לחיפוש ואיתור מוצרים. אנחנו סורקים אלפי מוצרים, בודקים דירוג, כמות מכירות, חנות רשמית ומשלוח לישראל, ומביאים לכם את הטובים ביותר ואת המתאימים ביותר לצרכים שלכם. מאחורי כל בחירה עומד ניסיון של שנים, גם בשטח וגם בחיפוש ציוד טוב באלי אקספרס.</p>
+    <p>הכל בעברית, מסודר לפי נושא, ומתעדכן כל שבוע.</p>
+    <p>הקנייה עצמה נעשית באלי אקספרס, באותו מחיר. על הזמן שאנחנו משקיעים בבדיקה, בחיפוש ובמיון, אלי אקספרס משלמת לנו עמלה קטנה כשקונים דרך הקישורים שלנו, וזה מה שמאפשר לנו להמשיך לבדוק ולעדכן.</p>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">צור קשר</h2>
+    <p>מחפשים ציוד שלא מופיע? רוצים לדעת מה מתאים לטיול שאתם מתכננים? כתבו לנו, ונחזור אליכם במייל.</p>
+    <form id="form" class="form" novalidate>
+      <div class="field"><label for="f-name">שם</label><input id="f-name" name="שם" required autocomplete="name"></div>
+      <div class="field"><label for="f-email">מייל לחזרה</label><input id="f-email" name="email" type="email" required autocomplete="email" dir="ltr"></div>
+      <div class="field"><label for="f-camera">לאיזה טיול?</label><input id="f-camera" name="טיול" placeholder="למשל קמפינג משפחתי, טרק של כמה ימים"></div>
+      <div class="field"><label for="f-type">סוג הפנייה</label>
+        <select id="f-type" name="סוג פנייה"><option>שאלה על מוצר</option><option>בקשה למוצר שלא מופיע</option><option>בעיה בקישור</option><option>אחר</option></select></div>
+      <div class="field full"><label for="f-msg">ההודעה</label><textarea id="f-msg" name="הודעה" required></textarea></div>
+      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="send" id="send" type="submit">שליחה</button>
+      <div class="status full" id="status" role="status"></div>
+    </form>
+    <p style="margin:16px 0 0;color:var(--ink-soft)">רוצים טיפים לטיולים ולקמפינג? <a href="__WA_URL__" target="_blank" rel="noopener" style="color:var(--ink);font-weight:700">הצטרפו לקבוצת הווצאפ שלנו</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="#about" style="color:var(--ink);font-weight:700">אודות מוצרים לקמפינג וטיולים</a></p>
+    <div class="follow"><b>עקבו אחרינו:</b><a href="__FB_URL__" target="_blank" rel="noopener">פייסבוק</a><a class="wa" href="__WA_URL__" target="_blank" rel="noopener">הצטרפו לקבוצת הווצאפ</a></div>
+    <p><b>קישורי שותפים:</b> על הזמן שאני משקיע בבדיקה, בחיפוש ובמיון המוצרים, אלי אקספרס משלמת לי עמלה קטנה כשאתם קונים דרך הקישורים באתר. המחיר שלכם לא משתנה.</p>
+    <p id="checked"></p>
+    <p>המחירים ודמי המשלוח נקבעים על ידי המוכרים באלי אקספרס, ואינם קבועים. הם משתנים לפי המוכר, המבצעים, שיטת המשלוח והכמות. המחיר הקובע הוא המחיר שמופיע בדף המוצר בזמן הרכישה.</p>
+    <p>הקנייה, המשלוח, האחריות וההחזרות הם מול המוכר ובכפוף לתנאי אלי אקספרס.</p>
+    <p>הזמנה עד 75$ פטורה ממע"מ לפי הכללים היום.</p>
+    <p class="copy">© <span id="year">2026</span> מוצרים לקמפינג וטיולים. כל הזכויות שמורות. תמונות המוצרים ושמות המותגים שייכים לבעליהם.</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+// ---- סטטיסטיקה: Google Analytics 4. פעיל רק כשמוגדר GA_ID ----
+const GA_ID = '';
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+if (GA_ID) {
+  const sc = document.createElement('script'); sc.async = true; sc.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID; document.head.appendChild(sc);
+  gtag('js', new Date()); gtag('config', GA_ID, {send_page_view: false});
+}
+function track(name, params){ try { if (GA_ID) gtag('event', name, params || {}); } catch {} }
+let lastView = '';
+function trackView(title){
+  const where = location.hash || '#home';
+  if (where === lastView) return; lastView = where;
+  track('page_view', {page_location: location.href, page_path: '/' + where, page_title: title || document.title});
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('a.buy');
+  if (b) { track('click_buy', {item_id: b.dataset.id, item_brand: b.dataset.brand, item_category: b.dataset.coll, item_name: b.dataset.title, section: (location.hash || '#home').slice(1)}); return; }
+  const a = e.target.closest('a[href]');
+  if (a && /facebook\.com|instagram\.com|chat\.whatsapp\.com/.test(a.href)) track('click_social', {network: a.hostname, place: a.closest('header') ? 'header' : a.closest('footer') ? 'footer' : 'page'});
+});
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/gadgetphoto2024@gmail.com';
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let DB, coll, group = 'all';
+
+// תמונה שלא נטענה: מנסים שרת תמונות חלופי של אלי אקספרס, ואם גם הוא נכשל מציגים את הלוגו
+function imgFail(el){
+  if (!el.dataset.alt && /aliexpress-media\.com\/kf\//.test(el.src)) { el.dataset.alt = 1; el.src = el.src.replace(/^https?:\/\/[^/]+\/kf\//, 'https://ae01.alicdn.com/kf/'); return; }
+  el.onerror = null; el.src = 'logo.png'; el.className = 'ph';
+}
+function card(p){
+  const price = p.price ? (p.variant ? 'כ-' : 'החל מ-') + Math.round(p.price) + '$' : '';
+  return `<article class="card">
+    <div class="img">${p.img ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(p.img)}" alt="${esc(p.title)}" onerror="imgFail(this)">` : `<img class="ph" src="logo.png" alt="">`}${p.code ? `<span class="code-tag">${esc(p.code)}</span>` : ''}</div>
+    <div class="body">
+      ${p.kind ? `<span class="kind">${esc(p.kind)}</span>` : ''}
+      <h3 class="title">${p.brand ? `<span class="b">${esc(p.brand)}</span> – ` : ''}${esc(p.title)}</h3>
+      ${p.fits ? `<div class="fits">מתאים ל: <bdi dir="ltr">${esc(p.fits)}</bdi></div>` : ''}
+      <div class="meta">${p.rating ? `<span class="rate">${p.rating}% חיובי</span>` : ''}${p.sold > 0 ? `<span>${Number(p.sold).toLocaleString('he-IL')} נמכרו</span>` : ''}<span title="${p.variant ? 'מחיר הגרסה המומלצת בתאריך הבדיקה' : 'המחיר הנמוך ביותר בדף המוצר. בחלק מהמוצרים הוא של גרסה חלקית, לכן כדאי לבדוק מה כלול בגרסה שבוחרים'}">${price}</span></div>
+      ${p.isNew ? '<span class="new-badge">חדש, עוד מעט ביקורות</span>' : ''}${p.variant ? `<span class="note variant">הגרסה המומלצת: ${esc(p.variant)}</span>` : ''}${p.note ? `<span class="note">${esc(p.note)}</span>` : ''}
+      <a class="buy" href="${esc(p.link)}" target="_blank" rel="noopener sponsored" data-id="${esc(p.id)}" data-brand="${esc(p.brand)}" data-coll="${esc(p.collection)}" data-title="${esc(p.title)}">לרכישה באלי אקספרס ←</a>
+    </div></article>`;
+}
+
+
+// ---- מבצעים וקופונים: נטען מ-data/deals.json. מה שפג תוקפו נעלם לבד ----
+let DEALS = {events: [], coupons: []};
+const today = () => new Date().toLocaleDateString('en-CA', {timeZone: 'Asia/Jerusalem'});
+const heDate = s => { const [y,m,d] = s.split('-'); return `${+d}/${+m}`; };
+const liveEvents = () => (DEALS.events || []).filter(e => (e.show_from || e.start) <= today() && today() <= e.end);
+const liveCoupons = () => (DEALS.coupons || []).filter(c => (!c.start || c.start <= today()) && today() <= c.end);
+const hasDeals = () => liveEvents().length || liveCoupons().length;
+
+function dealsBanner(){
+  const ev = liveEvents()[0], b = $('promo');
+  if (!ev && !liveCoupons().length) { b.hidden = true; return; }
+  let t;
+  if (ev) {
+    const days = Math.round((new Date(ev.start) - new Date(today())) / 864e5);
+    t = days > 0 ? `${esc(ev.title)} מתחיל בעוד ${days} ימים` : `${esc(ev.title)} פעיל עכשיו, עד ${heDate(ev.end)}`;
+  } else t = 'יש קופונים פעילים לאלי אקספרס';
+  b.innerHTML = `<b>${t}</b><span class="go">לקופונים ולמבצעים ←</span>`;
+  b.hidden = location.hash === '#deals';
+}
+
+function showDeals(){
+  trackView('מבצעים וקופונים');
+  $('shop').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('deals'); sec.hidden = false;
+  [...$('cols').querySelectorAll('button')].forEach(b => b.dataset.id === 'deals' ? b.setAttribute('aria-current','page') : b.removeAttribute('aria-current'));
+  const ev = liveEvents(), cps = liveCoupons();
+  let h = '<h1 id="deals-h">מבצעים וקופונים</h1><p>קופונים ומבצעים של אלי אקספרס שבדקנו. מעתיקים את הקוד ומדביקים אותו בעגלה, בשלב התשלום.</p>';
+  h += ev.map(e => `<div class="event"><h2>${esc(e.title)}</h2><div class="when">${heDate(e.start)}–${heDate(e.end)}</div>${e.text ? `<p>${esc(e.text)}</p>` : ''}</div>`).join('');
+  const picks = (DEALS.picks || []).map(id => DB.products.find(p => p.id === id)).filter(Boolean);
+  if (picks.length && ev.length) h += `<h2 style="font-family:var(--f-display);margin:26px 0 6px">${esc(DEALS.picks_title || 'הכי שווה לסמן לקראת המבצע')}</h2><p style="margin:0 0 14px;color:var(--ink-soft)">${esc(DEALS.picks_text || 'מוצרים שבדקנו ושצלמים באמת צריכים. אם תכננתם לקנות אחד מהם, ביום המבצע בדקו את המחיר בדף המוצר.')}</p><div class="grid">${picks.map(card).join('')}</div><div style="height:22px"></div>`;
+  if (cps.length) h += '<div class="coupons">' + cps.map((c,i) => `<div class="coupon"><div class="off">${esc(c.title)}</div>${c.cond ? `<div class="cond">${esc(c.cond)}</div>` : ''}<div class="code-row"><code id="cp${i}">${esc(c.code)}</code><button type="button" data-i="${i}">העתקה</button></div><div class="valid">בתוקף עד ${heDate(c.end)}${c.checked ? ` · נבדק ב-${heDate(c.checked)}` : ''}</div></div>`).join('') + '</div>';
+  else h += '<p class="empty">כרגע אין קופונים פעילים. הם יופיעו כאן ברגע שיתפרסמו.</p>';
+  h += '<p class="deals-note">הקופונים והמבצעים שייכים לאלי אקספרס, ומספר המימושים בהם מוגבל. ייתכן שקופון ייגמר לפני תאריך התפוגה, או לא יתאים לכל מוצר או חשבון. התנאים הקובעים הם אלה שמופיעים באלי אקספרס בזמן הרכישה.</p>';
+  sec.innerHTML = h;
+  sec.querySelectorAll('.coupon button').forEach(btn => btn.onclick = async () => {
+    const code = $('cp' + btn.dataset.i).textContent;
+    try { await navigator.clipboard.writeText(code); btn.textContent = 'הועתק ✓'; } catch { btn.textContent = 'סמנו והעתיקו'; }
+    setTimeout(() => btn.textContent = 'העתקה', 2000);
+  });
+  scrollTo(0, 0);
+}
+function showShop(){ $('deals').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('shop').hidden = false; dealsBanner(); }
+
+// ---- מה מתאים למצלמה שלי: data/cameras.json + תיוג המוצרים (for / models / brand_for) ----
+let CAMS = null;
+const COLL_NAME = id => (DB.collections.find(c => c.id === id) || {}).name || '';
+function setTabs(id){ [...$('cols').querySelectorAll('button')].forEach(b => b.dataset.id === id ? b.setAttribute('aria-current','page') : b.removeAttribute('aria-current')); }
+function showCam(brandId, modelName){
+  $('shop').hidden = true; $('deals').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('cam'); sec.hidden = false; setTabs('cam');
+  const brand = CAMS.brands.find(b => b.id === brandId);
+  const model = brand && brand.models.find(m => m.name === modelName);
+  trackView(model ? 'מצלמה: ' + brand.name + ' ' + model.name : 'מה מתאים למצלמה שלי');
+  if (model) track('select_camera', {camera_brand: brand.name, camera_model: model.name});
+  let h = '<h1 id="cam-h">מה מתאים למצלמה שלי?</h1><p class="lead">בוחרים מותג ודגם, ורואים את כל מה שמתאים מכל החנות: קודם מה שמתאים בדיוק לדגם, ואחר כך אביזרים שמתאימים לכל מצלמה מהסוג הזה.</p>';
+  h += '<div class="step"><h2>1. המותג</h2><div class="picks">' + CAMS.brands.map(b => `<button type="button" data-b="${b.id}" aria-pressed="${b.id === brandId}">${esc(b.name)}</button>`).join('') + '</div></div>';
+  if (brand) {
+    h += `<div class="step"><h2>2. הדגם</h2><div class="picks models">` + brand.models.map(m => `<button type="button" data-m="${esc(m.name)}" aria-pressed="${m.name === modelName}">${esc(m.name)}</button>`).join('') + `<div class="sub">הדגם לא ברשימה? <a href="#contact">כתבו לנו</a> ונבדק בשבילכם.</div></div></div>`;
+  }
+  if (model) h += camResults(brand, model);
+  sec.innerHTML = h;
+  sec.querySelectorAll('.more-btn').forEach(btn => btn.onclick = () => { btn.previousElementSibling.querySelectorAll('[data-more]').forEach(a => a.hidden = false); btn.remove(); });
+  sec.querySelectorAll('[data-b]').forEach(b => b.onclick = () => go('#cam/' + b.dataset.b));
+  sec.querySelectorAll('[data-m]').forEach(b => b.onclick = () => go('#cam/' + brand.id + '/' + encodeURIComponent(b.dataset.m)));
+  const c = sec.querySelector('a[href="#contact"]'); if (c && model) c.onclick = () => { $('f-camera').value = brand.name + ' ' + model.name; };
+  if (model) { const r = $('cam-res'); if (r) r.scrollIntoView({block: 'start'}); } else if (!brand) scrollTo(0, 0);
+}
+function go(hash){ history.replaceState(null, '', hash); route(); }
+function camResults(brand, model){
+  const full = (brand.id === 'phone' || brand.id === 'action' || brand.id === 'dji') ? model.name : brand.name + ' ' + model.name;
+  const typeName = CAMS.types[model.type];
+  const exact = DB.products.filter(p => (p.models || []).includes(model.name)).sort((a,b) => b.sold - a.sold);
+  const byBrandAll = DB.products.filter(p => p.brand_for === brand.id && (p.for || []).includes(model.type)).sort((a,b) => b.sold - a.sold);
+  const byBrand = byBrandAll.filter(p => p.collection !== 'adapters'), adapters = byBrandAll.filter(p => p.collection === 'adapters');
+  const general = DB.products.filter(p => !p.models && !p.brand_for && (p.for || []).includes(model.type));
+  let h = `<div id="cam-res"></div>`;
+  h += `<section class="tier"><h2>מתאים בדיוק ל-<bdi>${esc(full)}</bdi></h2>`;
+  const camTypes = ['M','D','C'];
+  if (camTypes.includes(model.type) && !exact.some(p => p.collection === 'batteries'))
+    h += `<div class="miss">עוד אין בחנות סוללה שבדקנו ל-<bdi>${esc(full)}</bdi>. <a href="#contact" onclick="$('f-camera').value='${esc(full).replace(/'/g,'')}'">כתבו לנו</a>, ונחפש סוללה מחנות רשמית.</div>`;
+  h += exact.length ? `${model.battery ? `<p>קוד הסוללה: <span dir="ltr">${esc(model.battery)}</span></p>` : ''}<div class="grid">${exact.map(card).join('')}</div>` : (camTypes.includes(model.type) ? '' : '<p>אין עדיין מוצרים לדגם הזה בדיוק. האביזרים הכלליים מופיעים למטה.</p>');
+  h += '</section>';
+  if (byBrand.length) h += `<section class="tier"><h2>למצלמות ${esc(brand.name)}</h2><p>כל מוצר מתאים לעדשה או לאביזר מסוים, שכתוב על הכרטיס.</p><div class="grid">${byBrand.map(p => card({...p, note: p.lens_note || p.note})).join('')}</div></section>`;
+  if (adapters.length) h += `<section class="tier"><h2>מתאמים לעדשות אחרות, למצלמות ${esc(brand.name)}</h2><p>יש לכם עדשות ממותג אחר או ממצלמה קודמת? על כל מתאם כתוב לאילו עדשות הוא מתאים.</p><div class="grid">${adapters.map(p => card({...p, note: p.lens_note || p.note})).join('')}</div></section>`;
+  if (general.length) {
+    h += `<section class="tier"><h2>מתאים לכל ${esc(typeName)}</h2><p>אביזרים שלא תלויים בדגם: תיקים, חצובות, רצועות, ניקוי ועוד.${['M','D'].includes(model.type) ? ' בפילטרים בוחרים לפי הקוטר שכתוב על העדשה, למשל ⌀58.' : ''}</p>`;
+    DB.collections.forEach(c => {
+      const part = general.filter(p => p.collection === c.id).sort((a,b) => b.sold - a.sold);
+      if (part.length) h += `<h3>${esc(c.name)} <small>(${part.length})</small></h3><div class="grid">${part.map((p,i) => i < 4 ? card(p) : card(p).replace('<article class="card"', '<article class="card" hidden data-more')).join('')}</div>${part.length > 4 ? `<button type="button" class="more-btn">עוד ${part.length - 4} ב${esc(c.name)}</button>` : ''}`;
+    });
+    h += '</section>';
+  }
+  return h;
+}
+// ---- מה חדש השבוע: data/news.json, גיליון חדש כל שבוע (באישור יורם) ----
+let NEWS = [];
+const heFull = s => { const [y,m,d] = s.split('-'); return `${+d}.${+m}.${y}`; };
+function newsItem(it){
+  const cls = it.kind === 'tip' ? 'news-item tip' : 'news-item';
+  let h = `<article class="${cls}"><h3>${esc(it.title)}</h3>`;
+  if (it.model) h += `<span class="model">${esc(it.model)}</span>`;
+  if (it.video && /^[\w-]{11}$/.test(it.video)) h += `<div class="vid"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/${it.video}" title="${esc(it.title)}" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>`;
+  h += `<p>${esc(it.text)}</p>`;
+  if (it.links) h += `<div class="links">${it.links.map(l => `<a href="${esc(l.href)}">${esc(l.text)} ←</a>`).join('')}</div>`;
+  if (it.source) h += `<a class="src" href="${esc(it.source.url)}" target="_blank" rel="noopener">למקור הידיעה (${esc(it.source.name)}) ←</a>`;
+  return h + '</article>';
+}
+function issueHtml(is, first){
+  let h = `<p class="issue-date">גיליון ${heFull(is.date)}</p><h2 class="issue-title">${esc(is.title)}</h2>`;
+  if (first && is.intro) h = `<p class="lead">${esc(is.intro)}</p>` + h;
+  h += `<div class="news-list">${(is.items || []).map(newsItem).join('')}</div>`;
+  if ((is.new_products || []).length) h += `<h2 style="font-family:var(--f-display);margin:28px 0 6px">חדש מהמותגים</h2><p style="margin:0 0 14px;color:var(--ink-soft);max-width:62ch">מוצרים שעלו לאחרונה בחנויות הרשמיות של המותגים. הם חדשים, ולכן עוד אין להם הרבה ביקורות: כדאי לקרוא את דף המוצר לפני שמחליטים.</p><div class="grid">${is.new_products.map(p => card({...p, isNew: true})).join('')}</div>`;
+  return h;
+}
+function showNews(){
+  trackView('מה חדש השבוע');
+  $('shop').hidden = true; $('deals').hidden = true; $('cam').hidden = true; $('promo').hidden = true;
+  const sec = $('news'); sec.hidden = false; setTabs('news');
+  const [cur, ...old] = NEWS;
+  let h = '<h1 id="news-h">📡 מה חדש השבוע</h1>' + issueHtml(cur, true);
+  if (old.length) h += `<details><summary>גיליונות קודמים (${old.length})</summary>${old.map(is => '<div style="margin-top:22px">' + issueHtml(is) + '</div>').join('')}</details>`;
+  sec.innerHTML = h;
+  sec.querySelectorAll('.links a').forEach(a => a.onclick = e => { e.preventDefault(); go(a.getAttribute('href')); scrollTo(0, 0); });
+  scrollTo(0, 0);
+}
+function route(){
+  const hsh = location.hash.slice(1);
+  if (hsh === 'deals' && hasDeals()) return showDeals();
+  if (hsh === 'news' && NEWS.length) return showNews();
+  if (hsh.startsWith('cam') && CAMS) { const [, b, m] = hsh.split('/'); return showCam(b, m ? decodeURIComponent(m) : null); }
+  $('cam').hidden = true;
+  if (DB.collections.some(c => c.id === hsh)) { setCollection(hsh); scrollTo(0, 0); }
+  else if (!coll) setCollection('');
+  else showShop();
+}
+
+function setCollection(id){
+  showShop();
+  coll = DB.collections.find(c => c.id === id && DB.products.some(p => p.collection === c.id))
+      || DB.collections.find(c => DB.products.some(p => p.collection === c.id));
+  group = 'all';
+  [...$('cols').querySelectorAll('button')].forEach(b => b.dataset.id === coll.id ? b.setAttribute('aria-current','page') : b.removeAttribute('aria-current'));
+  trackView('אוסף: ' + coll.name);
+  $('h1').textContent = coll.title || coll.name;
+  $('intro').textContent = coll.intro || '';
+  if (!$('how').dataset.orig) $('how').dataset.orig = $('how').innerHTML;
+  if (coll.how) { $('how').innerHTML = `<span>${esc(coll.how[0])}</span><span>${esc(coll.how[1])}</span>`; $('how').hidden = false; }
+  else { $('how').innerHTML = $('how').dataset.orig; $('how').hidden = coll.id !== 'batteries'; }
+  $('q').value = ''; $('q').placeholder = coll.search || 'חיפוש מוצר';
+  const items = DB.products.filter(p => p.collection === coll.id);
+  const chips = $('chips'); chips.innerHTML = '';
+  const groups = [['all','הכל'], ...(coll.groups || []).filter(([g]) => items.some(p => p.group === g))];
+  if (groups.length > 2) groups.forEach(([g,l]) => {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'chip';
+    const n = g === 'all' ? items.length : items.filter(p => p.group === g).length;
+    b.innerHTML = esc(l) + ' <small>' + n + '</small>'; b.setAttribute('aria-pressed', g === group);
+    b.onclick = () => { group = g; [...chips.children].forEach(c => c.setAttribute('aria-pressed', c === b)); render(); };
+    chips.appendChild(b);
+  });
+  render();
+}
+
+function render(){
+  const t = $('q').value.trim().toLowerCase().replace(/[\s-]/g,'');
+  const hit = p => !t || (p.code + p.fits + p.brand + p.title + p.kind).toLowerCase().replace(/[\s-]/g,'').includes(t);
+  const items = DB.products.filter(p => p.collection === coll.id && hit(p));
+  const sections = (coll.groups && coll.groups.length) ? coll.groups : [['', '']];
+  let html = '', n = 0;
+  sections.forEach(([g,l]) => {
+    if (group !== 'all' && group !== g) return;
+    const part = items.filter(p => !g || p.group === g).sort((a,b) => b.sold - a.sold);
+    if (!part.length) return; n += part.length;
+    html += `<section class="group">${l ? `<h2>${esc(l)} <small>${part.length} מוצרים</small></h2>` : ''}<div class="grid">${part.map(card).join('')}</div></section>`;
+  });
+  $('list').innerHTML = html || '<p class="empty">לא נמצא מוצר מתאים. נסו לחפש בלי רווחים, או כתבו לנו בטופס למטה.</p>';
+  $('count').textContent = n + ' מוצרים מוצגים';
+}
+
+Promise.all([fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json()), fetch('data/deals.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/cameras.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/news.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null)]).then(([data, deals, cams, news]) => {
+  if (deals) DEALS = deals; CAMS = cams; NEWS = (news && news.issues || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+  DB = data; DB.products = DB.products.filter(p => p.status !== 'missing' && p.status !== 'pending');
+  const nav = $('cols');
+  if (CAMS) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'cam'; b.className = 'cam-tab'; b.textContent = '📷 מה מתאים למצלמה שלי'; b.onclick = () => go('#cam'); nav.appendChild(b); }
+  if (NEWS.length) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'news'; b.className = 'news-tab'; b.textContent = '📡 מה חדש השבוע'; b.onclick = () => go('#news'); nav.appendChild(b); }
+  if (hasDeals()) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'deals'; b.className = 'deals-tab'; b.textContent = '🏷️ מבצעים וקופונים'; b.onclick = () => { history.replaceState(null, '', '#deals'); showDeals(); }; nav.appendChild(b); }
+  DB.collections.forEach(c => {
+    const has = DB.products.some(p => p.collection === c.id);
+    const b = document.createElement('button'); b.type = 'button'; b.dataset.id = c.id;
+    b.textContent = has ? c.name : c.name + ' · בקרוב'; b.disabled = !has;
+    b.onclick = () => { history.replaceState(null, '', '#' + c.id); setCollection(c.id); };
+    nav.appendChild(b);
+  });
+  const [y,m,d] = DB.updated.split('-');
+  $('checked').textContent = `המחירים, הדירוגים ומספר ההזמנות נבדקו ב-${+d}/${+m}/${y} ויכולים להשתנות. המחיר המעודכן מופיע בדף המוצר.`;
+  setCollection(DB.collections.some(c => c.id === location.hash.slice(1)) ? location.hash.slice(1) : '');
+  if (location.hash.slice(1).startsWith('cam') || location.hash === '#deals' || location.hash === '#news') route();
+}).catch(() => { $('list').innerHTML = '<p class="empty">לא הצלחנו לטעון את המוצרים. נסו לרענן את העמוד.</p>'; });
+
+let searchTimer;
+$('q').addEventListener('input', () => { render(); clearTimeout(searchTimer); const t = $('q').value.trim(); if (t.length >= 2) searchTimer = setTimeout(() => track('search', {search_term: t, collection: coll && coll.id, results: $('count').textContent}), 1500); });
+
+// ---- תפריט קטגוריות בטלפון ----
+const hdr = document.querySelector('header'), mbtn = $('menu-btn');
+function menuOpen(on){ hdr.classList.toggle('menu-open', on); mbtn.setAttribute('aria-expanded', on); }
+mbtn.onclick = () => menuOpen(!hdr.classList.contains('menu-open'));
+$('cols').addEventListener('click', e => { if (e.target.closest('button')) menuOpen(false); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') menuOpen(false); });
+document.addEventListener('click', e => { if (hdr.classList.contains('menu-open') && !hdr.contains(e.target)) menuOpen(false); });
+function syncMenu(){
+  const cur = $('cols').querySelector('[aria-current="page"]');
+  $('menu-lbl').innerHTML = '<small>קטגוריה:</small>' + esc(cur ? cur.textContent.replace(/^[^\p{L}]+/u, '') : 'כל הקטגוריות');
+}
+new MutationObserver(syncMenu).observe($('cols'), {subtree: true, childList: true, attributes: true, attributeFilter: ['aria-current']});
+window.addEventListener('hashchange', () => { if (DB && location.hash !== '#contact' && location.hash !== '#about') route(); });
+
+$('form').addEventListener('submit', async e => {
+  e.preventDefault();
+  const f = e.target, st = $('status');
+  if (!f.checkValidity()) { st.className = 'status full err'; st.textContent = 'נא למלא שם, מייל תקין והודעה.'; return; }
+  const body = Object.fromEntries(new FormData(f));
+  body._subject = 'פנייה חדשה מאתר מוצרים לקמפינג וטיולים: ' + body['סוג פנייה'];
+  body._template = 'table';
+  $('send').disabled = true; st.className = 'status full'; st.textContent = 'שולח…';
+  try {
+    const r = await fetch(FORM_ENDPOINT, {method: 'POST', headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}, body: JSON.stringify(body)});
+    if (!r.ok) throw 0;
+    track('contact_sent', {type: body['סוג פנייה']}); f.reset(); st.className = 'status full ok'; st.textContent = 'ההודעה נשלחה. נחזור אליכם במייל בהקדם.';
+  } catch { st.className = 'status full err'; st.textContent = 'השליחה לא הצליחה. נסו שוב בעוד כמה דקות.'; }
+  $('send').disabled = false;
+});
+</script>
+</body>
+</html>
