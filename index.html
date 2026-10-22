@@ -11,7 +11,7 @@
 <style>
 /* Layout: retro outdoors – sand paper, chunky outlined cards with hard shadows, teal hero, colorful collection tiles */
 :root{
-  --paper:#f4e3c3; --ink:#2b1d14; --ink-soft:#5a4a38; --line:#2b1d14;
+  --paper:#f4e3c3; --ink:#2b1d14; --ink-soft:#4a3828; --line:#2b1d14;
   --card:#fff7e8; --tile:#ffffff; --accent:#d94f23; --accent-ink:#fff7e8; --chip:#ebd3a8;
   --good:#1f5e5b; --teal:#1f5e5b; --mustard:#f2b544; --shadow:#2b1d14;
   --f-display:"Fredoka","Arial Hebrew","Segoe UI",Arial,sans-serif;
@@ -216,6 +216,10 @@ nav.cols button[aria-current="page"]{background:var(--ink);color:var(--paper)}
 .hero h1,#deals h1,#news h1{font-weight:700}
 .home{padding-block:24px 8px}
 .hero h1{scroll-margin-top:190px}
+#shop .hero{margin-top:36px;background:var(--mustard);color:#2b1d14;border:3px solid var(--ink);border-radius:28px;box-shadow:6px 6px 0 var(--shadow);padding:22px clamp(18px,3vw,32px)}
+#shop .hero h1{color:#2b1d14;font-size:clamp(1.9rem,4.5vw,2.8rem)}
+#shop .hero p{color:#2b1d14;font-size:1.12rem;font-weight:500;line-height:1.6}
+.count{color:var(--ink);font-weight:600}
 .home-hero{position:relative;background:var(--teal);color:#f4e3c3;border-radius:36px;overflow:hidden;padding:clamp(28px,5vw,60px) clamp(22px,5vw,56px);display:flex;flex-wrap:wrap;gap:28px;align-items:center}
 .home-hero .txt{flex:1 1 440px;min-width:0}
 .home-hero h1{margin:0;font-family:var(--f-display);font-weight:700;font-size:clamp(2.6rem,7vw,5rem);line-height:1}
