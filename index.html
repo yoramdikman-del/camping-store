@@ -211,7 +211,7 @@ nav.cols button.news-tab[aria-current="page"]{background:var(--good);color:#fff;
       <div class="brand"><b>מוצרים לקמפינג וטיולים</b><span>ציוד שטח מחנויות רשמיות, נבדק ומסודר בעברית</span></div>
       <a class="contact-link" href="#contact">צור קשר</a>
       <a class="social" href="#about">אודות</a>
-      <a class="social" href="__FB_URL__" target="_blank" rel="noopener">פייסבוק</a>
+      <a class="social" href="https://www.facebook.com/profile.php?id=61565441129212" target="_blank" rel="noopener">פייסבוק</a>
       <a class="social" href="__WA_URL__" target="_blank" rel="noopener">קבוצת ווצאפ</a>
     </div>
     <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="cols"><span aria-hidden="true">☰</span><span class="lbl" id="menu-lbl"><small>קטגוריה:</small>טוען…</span><span class="arr" aria-hidden="true">▾</span></button>
@@ -269,7 +269,7 @@ nav.cols button.news-tab[aria-current="page"]{background:var(--good);color:#fff;
 <footer>
   <div class="wrap">
     <p><a href="#about" style="color:var(--ink);font-weight:700">אודות מוצרים לקמפינג וטיולים</a></p>
-    <div class="follow"><b>עקבו אחרינו:</b><a href="__FB_URL__" target="_blank" rel="noopener">פייסבוק</a><a class="wa" href="__WA_URL__" target="_blank" rel="noopener">הצטרפו לקבוצת הווצאפ</a></div>
+    <div class="follow"><b>עקבו אחרינו:</b><a href="https://www.facebook.com/profile.php?id=61565441129212" target="_blank" rel="noopener">פייסבוק</a><a class="wa" href="__WA_URL__" target="_blank" rel="noopener">הצטרפו לקבוצת הווצאפ</a></div>
     <p><b>קישורי שותפים:</b> על הזמן שאני משקיע בבדיקה, בחיפוש ובמיון המוצרים, אלי אקספרס משלמת לי עמלה קטנה כשאתם קונים דרך הקישורים באתר. המחיר שלכם לא משתנה.</p>
     <p id="checked"></p>
     <p>המחירים ודמי המשלוח נקבעים על ידי המוכרים באלי אקספרס, ואינם קבועים. הם משתנים לפי המוכר, המבצעים, שיטת המשלוח והכמות. המחיר הקובע הוא המחיר שמופיע בדף המוצר בזמן הרכישה.</p>
@@ -555,6 +555,10 @@ $('form').addEventListener('submit', async e => {
   } catch { st.className = 'status full err'; st.textContent = 'השליחה לא הצליחה. נסו שוב בעוד כמה דקות.'; }
   $('send').disabled = false;
 });
+</script>
+<script>
+// עד שיתווסף קישור לקבוצת הווצאפ: מסתירים את הכפתורים
+document.querySelectorAll('a[href="__WA_URL__"]').forEach(a => { const p = a.closest('p'); if (p && p.textContent.trim().startsWith('רוצים')) p.remove(); else a.remove(); });
 </script>
 </body>
 </html>
