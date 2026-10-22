@@ -169,7 +169,7 @@ nav.cols button.cam-tab[aria-current="page"]{background:var(--ink);color:var(--p
   nav.cols{display:none}
   header.menu-open nav.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;max-height:65vh;overflow-y:auto;padding-bottom:14px}
   header.menu-open nav.cols button{white-space:normal;text-align:center;line-height:1.3;padding:10px 8px;border-radius:12px;font-size:.95rem}
-  header.menu-open nav.cols button.cam-tab,header.menu-open nav.cols button.deals-tab,header.menu-open nav.cols button.news-tab{grid-column:1/-1}
+  header.menu-open nav.cols button.plan-tab,header.menu-open nav.cols button.cam-tab,header.menu-open nav.cols button.deals-tab,header.menu-open nav.cols button.news-tab{grid-column:1/-1}
   .hero{padding-block:16px 4px}
   .finder-bar{margin-top:12px}
 }
@@ -215,7 +215,7 @@ nav.cols button[aria-current="page"]{background:var(--ink);color:var(--paper)}
 .menu-btn{border:2px solid var(--ink)!important}
 .hero h1,#deals h1,#news h1{font-weight:700}
 .home{padding-block:24px 8px}
-.hero h1{scroll-margin-top:190px}
+.hero h1,#plan-res,#tiles{scroll-margin-top:190px}
 #shop .hero{margin-top:36px;background:var(--mustard);color:#2b1d14;border:3px solid var(--ink);border-radius:28px;box-shadow:6px 6px 0 var(--shadow);padding:22px clamp(18px,3vw,32px)}
 #shop .hero h1{color:#2b1d14;font-size:clamp(1.9rem,4.5vw,2.8rem)}
 #shop .hero p{color:#2b1d14;font-size:1.12rem;font-weight:500;line-height:1.6}
@@ -256,10 +256,28 @@ footer{border-top:3px dashed var(--ink)}
   @keyframes slideHead{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:none}}
   .anim .hero h1,.anim .hero p{animation:slideHead .45s cubic-bezier(.2,.8,.2,1) both}
   .anim .hero p{animation-delay:.06s}
-  .anim .card{animation:slideIn .5s cubic-bezier(.2,.8,.2,1) both}
+  .anim .card,.anim .act-intro{animation:slideIn .5s cubic-bezier(.2,.8,.2,1) both}
   .anim .grid .card:nth-child(2){animation-delay:.05s}.anim .grid .card:nth-child(3){animation-delay:.1s}.anim .grid .card:nth-child(4){animation-delay:.15s}
   .anim .grid .card:nth-child(5){animation-delay:.2s}.anim .grid .card:nth-child(6){animation-delay:.25s}.anim .grid .card:nth-child(7){animation-delay:.3s}.anim .grid .card:nth-child(n+8){animation-delay:.35s}
 }
+/* מה אתם מתכננים? – חיפוש לפי סוג פעילות */
+.acts{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.acts button{font:inherit;cursor:pointer;text-align:start;border:3px solid var(--ink);border-radius:26px;padding:20px 22px;background:var(--card);color:var(--ink);box-shadow:6px 6px 0 var(--shadow);display:flex;flex-direction:column;gap:6px}
+.acts button .ic{font-size:2.2rem;line-height:1}
+.acts button b{font-size:1.35rem;font-weight:700}
+.acts button span.n{font-size:.95rem;font-weight:500;color:var(--ink-soft)}
+.acts button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.acts button[aria-pressed="true"] span.n{color:var(--paper)}
+.acts button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (prefers-reduced-motion:no-preference){.acts button{transition:transform .15s ease}.acts button:hover{transform:translate(-2px,-2px)}}
+#plan{padding-block:28px 6px}
+#plan h1{font-family:var(--f-display);font-weight:700;font-size:clamp(1.8rem,4.5vw,2.6rem);line-height:1.15;margin:0 0 8px}
+#plan .lead{margin:0 0 20px;font-size:1.1rem;font-weight:500;max-width:62ch}
+#plan .act-intro{margin:26px 0 4px;background:var(--mustard);color:#2b1d14;border:3px solid var(--ink);border-radius:24px;padding:16px 22px;font-size:1.1rem;font-weight:500;box-shadow:5px 5px 0 var(--shadow)}
+#plan .act-intro b{display:block;font-size:1.5rem;margin-bottom:4px}
+#plan h3{font-size:1.3rem;margin:26px 0 12px}
+nav.cols button.plan-tab{border-color:var(--accent);background:var(--accent);color:var(--accent-ink);font-weight:700}
+nav.cols button.plan-tab[aria-current="page"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 </style>
 </head>
 <body>
@@ -283,6 +301,7 @@ footer{border-top:3px dashed var(--ink)}
   <a class="promo" id="promo" href="#deals" hidden></a>
   <section id="deals" hidden aria-labelledby="deals-h"></section>
   <section id="cam" hidden aria-labelledby="cam-h"></section>
+  <section id="plan" hidden aria-labelledby="plan-h"></section>
   <section id="news" hidden aria-labelledby="news-h"></section>
   <section class="home" id="home" hidden aria-labelledby="home-h">
     <div class="home-hero">
@@ -296,6 +315,8 @@ footer{border-top:3px dashed var(--ink)}
         <div class="badge" id="home-badge"></div>
       </div>
     </div>
+    <h2>מה אתם מתכננים?</h2>
+    <div class="acts" id="acts-home"></div>
     <h2 id="tiles">מה אורזים?</h2>
     <div class="tiles" id="tiles-list"></div>
   </section>
@@ -424,7 +445,7 @@ function dealsBanner(){
 
 function showDeals(){
   trackView('מבצעים וקופונים');
-  $('home').hidden = true; $('shop').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('deals'); sec.hidden = false;
+  $('home').hidden = true; $('plan').hidden = true; $('shop').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('deals'); sec.hidden = false;
   [...$('cols').querySelectorAll('button')].forEach(b => b.dataset.id === 'deals' ? b.setAttribute('aria-current','page') : b.removeAttribute('aria-current'));
   const ev = liveEvents(), cps = liveCoupons();
   let h = '<h1 id="deals-h">מבצעים וקופונים</h1><p>קופונים ומבצעים של אלי אקספרס שבדקנו. מעתיקים את הקוד ומדביקים אותו בעגלה, בשלב התשלום.</p>';
@@ -442,14 +463,14 @@ function showDeals(){
   });
   scrollTo(0, 0);
 }
-function showShop(){ $('home').hidden = !['', '#tiles', '#about', '#contact'].includes(location.hash); $('deals').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('shop').hidden = false; dealsBanner(); }
+function showShop(){ $('plan').hidden = true; $('home').hidden = !['', '#tiles', '#about', '#contact'].includes(location.hash); $('deals').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('shop').hidden = false; dealsBanner(); }
 
 // ---- מה מתאים למצלמה שלי: data/cameras.json + תיוג המוצרים (for / models / brand_for) ----
 let CAMS = null;
 const COLL_NAME = id => (DB.collections.find(c => c.id === id) || {}).name || '';
 function setTabs(id){ [...$('cols').querySelectorAll('button')].forEach(b => b.dataset.id === id ? b.setAttribute('aria-current','page') : b.removeAttribute('aria-current')); }
 function showCam(brandId, modelName){
-  $('home').hidden = true; $('shop').hidden = true; $('deals').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('cam'); sec.hidden = false; setTabs('cam');
+  $('home').hidden = true; $('plan').hidden = true; $('shop').hidden = true; $('deals').hidden = true; $('news').hidden = true; $('promo').hidden = true; const sec = $('cam'); sec.hidden = false; setTabs('cam');
   const brand = CAMS.brands.find(b => b.id === brandId);
   const model = brand && brand.models.find(m => m.name === modelName);
   trackView(model ? 'מצלמה: ' + brand.name + ' ' + model.name : 'מה מתאים למצלמה שלי');
@@ -516,7 +537,7 @@ function issueHtml(is, first){
 }
 function showNews(){
   trackView('מה חדש השבוע');
-  $('home').hidden = true; $('shop').hidden = true; $('deals').hidden = true; $('cam').hidden = true; $('promo').hidden = true;
+  $('home').hidden = true; $('plan').hidden = true; $('shop').hidden = true; $('deals').hidden = true; $('cam').hidden = true; $('promo').hidden = true;
   const sec = $('news'); sec.hidden = false; setTabs('news');
   const [cur, ...old] = NEWS;
   let h = '<h1 id="news-h">📡 מה חדש השבוע</h1>' + issueHtml(cur, true);
@@ -525,10 +546,37 @@ function showNews(){
   sec.querySelectorAll('.links a').forEach(a => a.onclick = e => { e.preventDefault(); go(a.getAttribute('href')); scrollTo(0, 0); });
   scrollTo(0, 0);
 }
+// ---- מה אתם מתכננים? חיפוש מוצרים לפי סוג פעילות (שדה acts במוצר, רשימת activities בקובץ) ----
+const ACTS = () => DB.activities || [];
+function actButtons(cur){
+  return ACTS().map(a => { const n = DB.products.filter(p => (p.acts || []).includes(a.id)).length;
+    return `<button type="button" data-act="${a.id}" aria-pressed="${a.id === cur}"><span class="ic" aria-hidden="true">${a.icon}</span><b>${esc(a.name)}</b><span class="n">${n} מוצרים מתאימים ←</span></button>`; }).join('');
+}
+function bindActs(el){ el.querySelectorAll('[data-act]').forEach(b => b.onclick = () => go('#plan/' + b.dataset.act)); }
+function showPlan(actId){
+  $('home').hidden = true; $('shop').hidden = true; $('deals').hidden = true; $('cam').hidden = true; $('news').hidden = true; $('promo').hidden = true;
+  const sec = $('plan'); sec.hidden = false; setTabs('plan');
+  const act = ACTS().find(a => a.id === actId);
+  trackView(act ? 'פעילות: ' + act.name : 'מה אתם מתכננים?');
+  let h = '<h1 id="plan-h">מה אתם מתכננים?</h1><p class="lead">בוחרים סוג פעילות, ורואים את כל הציוד שמתאים לה מכל החנות, מסודר לפי נושא.</p>';
+  h += `<div class="acts">${actButtons(actId)}</div>`;
+  if (act) {
+    h += `<div class="act-intro" id="plan-res"><b>${act.icon} ${esc(act.name)}</b>${esc(act.intro)}</div>`;
+    DB.collections.forEach(c => {
+      const part = DB.products.filter(p => p.collection === c.id && (p.acts || []).includes(act.id)).sort((a,b) => b.sold - a.sold);
+      if (part.length) h += `<h3>${esc(c.name)} <small>(${part.length})</small></h3><div class="grid">${part.map((p,i) => i < 4 ? card(p) : card(p).replace('<article class="card"', '<article class="card" hidden data-more')).join('')}</div>${part.length > 4 ? `<button type="button" class="more-btn">עוד ${part.length - 4} ב${esc(c.name)}</button>` : ''}`;
+    });
+  }
+  sec.innerHTML = h; bindActs(sec);
+  sec.querySelectorAll('.more-btn').forEach(btn => btn.onclick = () => { btn.previousElementSibling.querySelectorAll('[data-more]').forEach(a => a.hidden = false); btn.remove(); });
+  sec.classList.remove('anim'); void sec.offsetWidth; sec.classList.add('anim');
+  if (act) { const r = $('plan-res'); if (r) r.scrollIntoView({block: 'start'}); } else scrollTo(0, 0);
+}
 function route(){
   const hsh = location.hash.slice(1);
   if (hsh === 'deals' && hasDeals()) return showDeals();
   if (hsh === 'news' && NEWS.length) return showNews();
+  if (hsh.startsWith('plan') && ACTS().length) { const [, a] = hsh.split('/'); return showPlan(a || null); }
   if (hsh.startsWith('cam') && CAMS) { const [, b, m] = hsh.split('/'); return showCam(b, m ? decodeURIComponent(m) : null); }
   $('cam').hidden = true;
   if (DB.collections.some(c => c.id === hsh)) { setCollection(hsh); scrollTo(0, 0); }
@@ -583,6 +631,7 @@ Promise.all([fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json()
   if (deals) DEALS = deals; CAMS = cams; NEWS = (news && news.issues || []).slice().sort((a,b) => b.date.localeCompare(a.date));
   DB = data; DB.products = DB.products.filter(p => p.status !== 'missing' && p.status !== 'pending');
   const nav = $('cols');
+  if (ACTS().length) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'plan'; b.className = 'plan-tab'; b.textContent = '🧭 מה אתם מתכננים?'; b.onclick = () => go('#plan'); nav.appendChild(b); $('acts-home').innerHTML = actButtons(null); bindActs($('acts-home')); }
   if (CAMS) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'cam'; b.className = 'cam-tab'; b.textContent = '📷 מה מתאים למצלמה שלי'; b.onclick = () => go('#cam'); nav.appendChild(b); }
   if (NEWS.length) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'news'; b.className = 'news-tab'; b.textContent = '📡 מה חדש השבוע'; b.onclick = () => go('#news'); nav.appendChild(b); }
   if (hasDeals()) { const b = document.createElement('button'); b.type = 'button'; b.dataset.id = 'deals'; b.className = 'deals-tab'; b.textContent = '🏷️ מבצעים וקופונים'; b.onclick = () => { history.replaceState(null, '', '#deals'); showDeals(); }; nav.appendChild(b); }
@@ -605,7 +654,7 @@ Promise.all([fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json()
   const [y,m,d] = DB.updated.split('-');
   $('checked').textContent = `המחירים, הדירוגים ומספר ההזמנות נבדקו ב-${+d}/${+m}/${y} ויכולים להשתנות. המחיר המעודכן מופיע בדף המוצר.`;
   setCollection(DB.collections.some(c => c.id === location.hash.slice(1)) ? location.hash.slice(1) : '');
-  if (location.hash.slice(1).startsWith('cam') || location.hash === '#deals' || location.hash === '#news') route();
+  if (location.hash.slice(1).startsWith('cam') || location.hash.slice(1).startsWith('plan') || location.hash === '#deals' || location.hash === '#news') route();
 }).catch(() => { $('list').innerHTML = '<p class="empty">לא הצלחנו לטעון את המוצרים. נסו לרענן את העמוד.</p>'; });
 
 let searchTimer;
