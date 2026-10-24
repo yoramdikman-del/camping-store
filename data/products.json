@@ -30,6 +30,13 @@
    "groups": []
   },
   {
+   "id": "bottles",
+   "name": "בקבוקים ותרמוסים",
+   "title": "בקבוקים ותרמוסים שומרי קור וחום",
+   "intro": "בקבוקים תרמיים ותרמוסים איכותיים לטיול, לעבודה ולבית הספר. מים קרים גם אחרי שעות בשמש, וקפה חם בבוקר קר.",
+   "groups": []
+  },
+  {
    "id": "furniture",
    "name": "ריהוט שטח",
    "title": "כיסאות, שולחנות ומדפים לשטח",
@@ -39,8 +46,8 @@
   {
    "id": "camp",
    "name": "כלים ואביזרי מחנה",
-   "title": "כלים, יתושים ואביזרי מחנה",
-   "intro": "פטיש ליתדות, מסור מתקפל, עוגני חבל ומכשירים נטענים נגד יתושים ועקיצות.",
+   "title": "כלים, טיטניום קומפקטי ואביזרי מחנה",
+   "intro": "פטיש ליתדות, מסור מתקפל, כלי טיטניום קטנים בגודל מחזיק מפתחות, ומכשירים נטענים נגד יתושים.",
    "groups": []
   },
   {
@@ -69,6 +76,13 @@
    "name": "טרקים והליכה",
    "title": "מקלות הליכה ותיקי שתייה לטרק",
    "intro": "מקלות הליכה ותיקי שתייה קלים לטרקים ולמסלולים ארוכים.",
+   "groups": []
+  },
+  {
+   "id": "wear",
+   "name": "ביגוד שטח",
+   "title": "ביגוד שטח קל: כובעים וכפפות",
+   "intro": "כובעים מנדפים, כפפות חמות ועוד ביגוד קל לטיול. בבחירת מידה בודקים את טבלת המידות בדף המוצר.",
    "groups": []
   }
  ],
@@ -1581,6 +1595,368 @@
    "acts": [
     "day",
     "trek"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005006782010244",
+   "brand": "UPORS",
+   "title": "תרמוס שטח מנירוסטה, שומר קר וחם",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 16.65,
+   "rating": 94.7,
+   "sold": 3036,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfed76622204b481cb1518bae7aace5593.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "picnic",
+    "camp"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005005077847626",
+   "brand": "UPORS",
+   "title": "תרמוס גדול עם רצועת נשיאה",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 15.49,
+   "rating": 95.4,
+   "sold": 788,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/HTB1OurlXUWF3KVjSZPhq6xclXXan.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "picnic",
+    "camp"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005008471006818",
+   "brand": "WATERSY",
+   "title": "בקבוק תרמי 500 מ\"ל, דופן כפולה",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 13.45,
+   "rating": 97.0,
+   "sold": 579,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc6899aa969db4eebaddb623c5037691ff.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek",
+    "picnic"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005010030931968",
+   "brand": "WATERSY",
+   "title": "תרמוס 500 מ\"ל לקפה ולמים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 14.69,
+   "rating": 96.7,
+   "sold": 225,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6ec7c2385cd9429cace92e10663ec9bdD.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "camp",
+    "picnic"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005007272466855",
+   "brand": "LUSQI",
+   "title": "בקבוק תרמי גדול עם ידית וקש",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 24.89,
+   "rating": 94.6,
+   "sold": 476,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1da31eca1f54bd299128939565469edt.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "picnic",
+    "camp"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005008753824925",
+   "brand": "ROCKBROS",
+   "title": "בקבוק תרמי לספורט ולטיול",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 19.19,
+   "rating": 97.7,
+   "sold": 305,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1d1166b3dbac4286b96a5a99e9ae07f6j.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005010183191855",
+   "brand": "Simbuid",
+   "title": "בקבוק תרמי לילדים, עם קש",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "גם לבית הספר",
+   "price": 7.28,
+   "rating": 96.2,
+   "sold": 375,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd3f6971d5594454eaa988521622e8ee7x.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "picnic"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005009946279356",
+   "brand": "Boundless Voyage",
+   "title": "כוס תרמוס מטיטניום, 500 מ\"ל",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "קל במיוחד",
+   "price": 54.99,
+   "rating": 97.1,
+   "sold": 90,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3584155f79464313a3c388603b1e0209O.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "trek",
+    "camp"
+   ]
+  },
+  {
+   "collection": "bottles",
+   "group": "",
+   "id": "1005012842515334",
+   "brand": "KEITH",
+   "title": "תרמוס טיטניום 380 מ\"ל עם מסננת לתה",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "מוצר חדש, עוד מעט ביקורות",
+   "price": 69.39,
+   "rating": 100.0,
+   "sold": 6,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3a19b0a183804d048159b4029f6b34ddZ.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "trek",
+    "camp",
+    "day"
+   ]
+  },
+  {
+   "collection": "camp",
+   "group": "",
+   "id": "1005005170304751",
+   "brand": "NITECORE",
+   "title": "קרבינר טיטניום 3 ב־1: פותחן ומברג",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "בגודל מחזיק מפתחות",
+   "price": 14.95,
+   "rating": 99.3,
+   "sold": 126,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4d47f3dd171b46089fe7b63de4b23250p.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek",
+    "camp"
+   ]
+  },
+  {
+   "collection": "camp",
+   "group": "",
+   "id": "1005008867184718",
+   "brand": "Tiartisan",
+   "title": "מחזיק מפתחות מגנטי מטיטניום, שחרור מהיר",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 20.84,
+   "rating": 98.5,
+   "sold": 557,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S562366f976174b629cb295d373f6b165Y.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek"
+   ]
+  },
+  {
+   "collection": "camp",
+   "group": "",
+   "id": "1005007812414142",
+   "brand": "Tiartisan",
+   "title": "קפסולה אטומה מטיטניום, לתרופות ולגפרורים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 8.95,
+   "rating": 97.9,
+   "sold": 1282,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5551521bfcbb4e85a344560938873f8di.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek",
+    "camp"
+   ]
+  },
+  {
+   "collection": "camp",
+   "group": "",
+   "id": "1005012008527161",
+   "brand": "Tiartisan",
+   "title": "קופסה אטומה קטנה מטיטניום",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 11.05,
+   "rating": 96.4,
+   "sold": 284,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S06c1c24fe3944cd4baeeb5d3b3fbb3beK.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "trek",
+    "camp"
+   ]
+  },
+  {
+   "collection": "wear",
+   "group": "",
+   "id": "1005007811301130",
+   "brand": "Naturehike",
+   "title": "כפפות חורף חמות ועמידות למים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 14.37,
+   "rating": 96.9,
+   "sold": 280,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbca68f38e79841c58412ab89a4096956v.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "trek",
+    "camp",
+    "day"
+   ]
+  },
+  {
+   "collection": "wear",
+   "group": "",
+   "id": "1005001463675546",
+   "brand": "Naturehike",
+   "title": "כפפות שטח נגד החלקה, עובדות עם מסך מגע",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 8.85,
+   "rating": 98.2,
+   "sold": 150,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S71bc06a55ba840b1bb3eb88dfec8a630v.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek"
+   ]
+  },
+  {
+   "collection": "wear",
+   "group": "",
+   "id": "1005012259952460",
+   "brand": "Naturehike",
+   "title": "כובע שטח קל, מנדף ומתייבש מהר",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 19.93,
+   "rating": 97.9,
+   "sold": 151,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S43dbdcc113df4724972cf1a3d99b07668.jpg",
+   "tid": "",
+   "status": "pending",
+   "acts": [
+    "day",
+    "trek",
+    "picnic"
    ]
   }
  ],
