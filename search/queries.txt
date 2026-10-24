@@ -1,45 +1,31 @@
-# סבב 3 – 22.10.2026 – מותגים וקטגוריות חדשים
-# אוהלים ויתדות
-Mobi Garden tent
-Blackdeer tent
-Naturehike tent pegs
-# שינה
-Mobi Garden sleeping bag
-Naturehike inflatable pillow
-# ניפוח
-FLEXTAIL pump
-Mountainhiker air pump
-# כיריים ומבערים
-TARKA gas stove
-Fire-Maple stove
-Mountainhiker gas stove
-Widesea stove
-# מגיני רוח
-Fire-Maple windshield
-Naturehike windscreen
-# גרילים מתקפלים
-Campingmoon folding grill
-Mountainhiker charcoal grill
-Naturehike grill
-# כלי אוכל
-TOAKS titanium
-Boundless Voyage titanium
-# כיסאות ושולחנות
-Blackdeer folding chair
-Naturehike folding chair
-Mountainhiker camping table
-# תאורה
-Wurkkos headlamp
-Sofirn lantern
-# כלים
-Naturehike folding shovel
-camping hammer
-multitool
-folding saw
-# יתושים
-USB mosquito repellent
-mosquito net camping
-# שונות
-camping carabiner
-camping rope
-water filter camping
+# סבב 4 – 24.10.2026 – בקבוקים, תרמוסים, טיטניום קומפקטי, ביגוד קל
+# בקבוקים שומרי קור/חום
+Naturehike vacuum bottle
+Naturehike insulated bottle
+Fire-Maple vacuum flask
+Boundless Voyage double wall titanium bottle
+TOAKS titanium vacuum bottle
+Keith titanium vacuum bottle
+Tiartisan titanium bottle
+vacuum insulated water bottle stainless steel
+# תרמוסים
+Fire-Maple thermos
+Naturehike thermos
+stainless steel vacuum thermos 1L
+titanium thermos
+# טיטניום קומפקטי / מחזיק מפתחות
+FEGVE titanium
+FEGVE keychain
+FEGVE bottle opener
+FEGVE multitool
+titanium keychain multitool
+titanium bottle opener keychain
+titanium pry bar keychain
+titanium carabiner
+# ביגוד שטח קל
+Naturehike hat
+Naturehike sun hat
+Naturehike quick dry t-shirt
+Naturehike gloves
+quick dry hiking shirt
+sun protection hiking hat
