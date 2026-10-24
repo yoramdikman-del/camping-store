@@ -241,6 +241,7 @@ nav.cols button[aria-current="page"]{background:var(--ink);color:var(--paper)}
 .title{font-weight:600;font-size:1.08rem}
 .title .b{display:inline-block;background:var(--mustard);color:#2b1d14;padding:1px 10px;border-radius:999px;font-size:.82rem;font-weight:600;margin-inline-end:4px}
 .meta .rate{font-weight:600}
+.meta .ils{font-weight:700;color:var(--ink)}
 .note{background:var(--chip);border-radius:999px;padding:3px 10px}
 .buy{border-radius:999px;padding:12px;font-weight:700}
 .search input{border:2px solid var(--ink);border-radius:999px;padding-inline:18px}
@@ -370,6 +371,7 @@ nav.cols button.plan-tab[aria-current="page"]{background:var(--ink);color:var(--
     <p class="sister"><b>חנות אחות:</b> <a href="https://yoramdikman-del.github.io/photo-store/?from=camping" target="_blank" rel="noopener">צילום בכל גיל</a>, ציוד צילום לטיולים ולשטח: חצובות, סוללות, תיקים ועוד.</p>
     <p><b>קישורי שותפים:</b> על הזמן שאני משקיע בבדיקה, בחיפוש ובמיון המוצרים, אלי אקספרס משלמת לי עמלה קטנה כשאתם קונים דרך הקישורים באתר. המחיר שלכם לא משתנה.</p>
     <p id="checked"></p>
+    <p id="rate-note"></p>
     <p>המחירים ודמי המשלוח נקבעים על ידי המוכרים באלי אקספרס, ואינם קבועים. הם משתנים לפי המוכר, המבצעים, שיטת המשלוח והכמות. המחיר הקובע הוא המחיר שמופיע בדף המוצר בזמן הרכישה.</p>
     <p>הקנייה, המשלוח, האחריות וההחזרות הם מול המוכר ובכפוף לתנאי אלי אקספרס.</p>
     <p>הזמנה עד 75$ פטורה ממע"מ לפי הכללים היום.</p>
@@ -404,6 +406,9 @@ const FORM_ENDPOINT = 'https://formsubmit.co/ajax/gadgetphoto2024@gmail.com';
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let DB, coll, group = 'all';
+let RATE = null; // שער דולר-שקל מ-data/rate.json
+const ILS_FROM = 40; // מחיר בשקלים מוצג רק למוצרים מ-40$ ומעלה
+const ils = usd => RATE && usd >= ILS_FROM ? ` <span class="ils">· כ־<bdi dir="ltr">₪${Math.round(usd * RATE.usd_ils).toLocaleString('he-IL')}</bdi></span>` : '';
 
 // תמונה שלא נטענה: מנסים שרת תמונות חלופי של אלי אקספרס, ואם גם הוא נכשל מציגים את הלוגו
 function imgFail(el){
@@ -411,7 +416,7 @@ function imgFail(el){
   el.onerror = null; el.src = 'logo.png'; el.className = 'ph';
 }
 function card(p){
-  const price = p.price ? (p.variant ? 'כ־' : 'החל מ־') + '<bdi dir="ltr">' + Math.round(p.price) + '$</bdi>' : '';
+  const price = p.price ? (p.variant ? 'כ־' : 'החל מ־') + '<bdi dir="ltr">' + Math.round(p.price) + '$</bdi>' + ils(p.price) : '';
   return `<article class="card">
     <div class="img">${p.img ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(p.img)}" alt="${esc(p.title)}" onerror="imgFail(this)">` : `<img class="ph" src="logo.png" alt="">`}${p.code ? `<span class="code-tag">${esc(p.code)}</span>` : ''}</div>
     <div class="body">
@@ -629,7 +634,9 @@ function render(){
   const sh = $('shop'); sh.classList.remove('anim'); void sh.offsetWidth; sh.classList.add('anim');
 }
 
-Promise.all([fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json()), fetch('data/deals.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/cameras.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/news.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null)]).then(([data, deals, cams, news]) => {
+Promise.all([fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json()), fetch('data/deals.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/cameras.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/news.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null), fetch('data/rate.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null)]).then(([data, deals, cams, news, rate]) => {
+  RATE = rate;
+  if (RATE) { const [ry,rm,rd] = RATE.date.split('-'); $('rate-note').textContent = `המחיר בשקלים הוא הערכה לפי השער היציג של הדולר (${RATE.usd_ils.toFixed(2)} ₪, ${+rd}/${+rm}/${ry}). המחיר הסופי בשקלים נקבע באלי אקספרס בזמן התשלום, ועשוי לכלול עמלת המרה של חברת האשראי.`; }
   if (deals) DEALS = deals; CAMS = cams; NEWS = (news && news.issues || []).slice().sort((a,b) => b.date.localeCompare(a.date));
   DB = data; DB.products = DB.products.filter(p => p.status !== 'missing' && p.status !== 'pending');
   const nav = $('cols');
