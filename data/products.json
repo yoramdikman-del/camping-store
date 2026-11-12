@@ -1943,6 +1943,119 @@
     "trek",
     "picnic"
    ]
+  },
+  {
+   "collection": "light",
+   "group": "",
+   "id": "1005012399474701",
+   "brand": "FLEXTAIL",
+   "title": "פנס קמפינג זעיר 2 ב-1, רק 56 גרם",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 32.2,
+   "rating": 97.6,
+   "sold": 1707,
+   "link": "https://www.aliexpress.com/item/1005012399474701.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S89c7f052c48b4dbd91cf7799bb4d1f1eh.png",
+   "tid": "campsite",
+   "acts": [
+    "camp",
+    "trek",
+    "day"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "sleep",
+   "group": "",
+   "id": "1005009895181610",
+   "brand": "FLEXTAIL",
+   "title": "כרית קמפינג מתנפחת עם שני גבהים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 29.99,
+   "rating": 96.2,
+   "sold": 1232,
+   "link": "https://www.aliexpress.com/item/1005009895181610.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se9e4170e46d74a12868e63a1b06820bat.jpg",
+   "tid": "campsite",
+   "acts": [
+    "camp",
+    "trek"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "dining",
+   "group": "",
+   "id": "1005007989133428",
+   "brand": "Tiartisan",
+   "title": "ספל טיטניום קל עם ידיות מתקפלות",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 17.75,
+   "rating": 97.9,
+   "sold": 3600,
+   "link": "https://www.aliexpress.com/item/1005007989133428.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S37cf4a81845f483c9fef653269e82092y.jpg",
+   "tid": "campsite",
+   "acts": [
+    "camp",
+    "trek",
+    "day"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "cook",
+   "group": "",
+   "id": "1005005179105161",
+   "brand": "Widesea",
+   "title": "קומקום שטח קל עם ידית מתקפלת",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 10.32,
+   "rating": 98.7,
+   "sold": 199,
+   "link": "https://www.aliexpress.com/item/1005005179105161.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4f4759e9dbc49bea26643ee44d3e193a.jpg",
+   "tid": "campsite",
+   "acts": [
+    "camp",
+    "picnic",
+    "day"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "trek",
+   "group": "",
+   "id": "1005005888628935",
+   "brand": "AONIJIE",
+   "title": "זוג מקלות הליכה מתקפלים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 38.98,
+   "rating": 97.3,
+   "sold": 246,
+   "link": "https://www.aliexpress.com/item/1005005888628935.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd2d6442c276419facf804661e6f0773R.jpg",
+   "tid": "campsite",
+   "acts": [
+    "trek",
+    "day"
+   ],
+   "status": "pending"
   }
  ],
  "activities": [
