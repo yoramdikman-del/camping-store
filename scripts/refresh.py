@@ -108,10 +108,9 @@ for p in todo:                             # מוצרים בלי עמלה: אח�
     else:
         p['link'] = u; p['tid'] = 'direct'      # קישור ישיר לדף המוצר (בלי מעקב)
     time.sleep(0.4)
+# מוצרים ממתינים לא עולים לאתר אוטומטית. רק יורם מאשר (מוחקים את status ידנית).
 for p in prods:
-    if p.get('status') == 'pending' and p.get('tid') in (TRACKING, 'direct'):
-        p.pop('status'); new_ok.append(p)
-    elif p.get('status') == 'pending':
+    if p.get('status') == 'pending':
         new_wait.append(p)
 
 # חלופות עם עמלה למוצרים בלי עמלה
@@ -141,7 +140,7 @@ lines = [f'# רענון מוצרים – {today}', '',
          f'נבדקו {len(prods)} מוצרים. נמצאו {len(found)}. קישורי website חדשים: {new_links}.', '']
 lines += ['## מוצרים חדשים שעולים לאתר'] + ([f'- {name(p)} ({"קישור שותפים" if p["tid"] == TRACKING else "קישור ישיר, בלי מעקב"})' for p in new_ok] or ['- אין']) + ['']
 if new_wait:
-    lines += ['## מוצרים חדשים שעדיין מחכים לקישור'] + [f'- {name(p)} ({p["id"]})' for p in new_wait] + ['']
+    lines += ['## מוצרים ממתינים לאישור של יורם (מוסתרים באתר)'] + [f'- {name(p)} ({p["id"]})' for p in new_wait] + ['']
 lines += ['## מוצרים שלא נמצאו (מוסתרים באתר עד החלטה)'] + ([f'- {name(p)} ({p["id"]})' for p in missing] or ['- אין']) + ['']
 lines += ['## מוצרים שחזרו'] + ([f'- {name(p)}' for p in back] or ['- אין']) + ['']
 lines += [f'## שינויי מחיר מעל {int(PRICE_ALERT * 100)}%'] + ([f'- {name(p)}: {a}$ → {b}$' for p, a, b in price_moves] or ['- אין']) + ['']
