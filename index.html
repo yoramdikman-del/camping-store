@@ -380,7 +380,8 @@ nav.cols button.plan-tab[aria-current="page"]{background:var(--ink);color:var(--
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 // ---- סטטיסטיקה: Google Analytics 4. פעיל רק כשמוגדר GA_ID ----
-const GA_ID = '';
+const GA_ID = 'G-KY0G2JCNBM';
+const STORE = 'camping';
 window.dataLayer = window.dataLayer || [];
 function gtag(){ dataLayer.push(arguments); }
 if (GA_ID) {
@@ -395,9 +396,8 @@ function trackView(title){
   track('page_view', {page_location: location.href, page_path: '/' + where, page_title: title || document.title});
 }
 document.addEventListener('click', e => {
-  const b = e.target.closest('a.buy');
-  if (b) { track('click_buy', {item_id: b.dataset.id, item_brand: b.dataset.brand, item_category: b.dataset.coll, item_name: b.dataset.title, section: (location.hash || '#home').slice(1)}); return; }
   const a = e.target.closest('a[href]');
+  if (a && (a.classList.contains('buy') || /aliexpress\./i.test(a.href))) { track('click_buy', {store: STORE, item_id: a.dataset.id || '', item_brand: a.dataset.brand || '', item_category: a.dataset.coll || '', item_name: a.dataset.title || a.textContent.trim().slice(0, 80), section: (location.hash || '#home').slice(1), via: a.classList.contains('buy') ? 'button' : 'link'}); return; }
   if (a && /facebook\.com|instagram\.com|chat\.whatsapp\.com/.test(a.href)) track('click_social', {network: a.hostname, place: a.closest('header') ? 'header' : a.closest('footer') ? 'footer' : 'page'});
 });
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/gadgetphoto2024@gmail.com';
