@@ -2036,8 +2036,7 @@
    "tid": "campsite",
    "acts": [
     "abroad"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2057,8 +2056,7 @@
    "tid": "campsite",
    "acts": [
     "abroad"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2078,8 +2076,7 @@
    "tid": "campsite",
    "acts": [
     "abroad"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2100,8 +2097,7 @@
    "acts": [
     "abroad",
     "trek"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2121,8 +2117,7 @@
    "tid": "campsite",
    "acts": [
     "abroad"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2144,8 +2139,7 @@
     "abroad",
     "trek",
     "camp"
-   ],
-   "status": "pending"
+   ]
   },
   {
    "collection": "abroad",
@@ -2166,8 +2160,7 @@
    "acts": [
     "abroad",
     "camp"
-   ],
-   "status": "pending"
+   ]
   }
  ],
  "activities": [
