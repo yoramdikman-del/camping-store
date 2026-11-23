@@ -84,6 +84,13 @@
    "title": "ביגוד שטח קל: כובעים וכפפות",
    "intro": "כובעים מנדפים, כפפות חמות ועוד ביגוד קל לטיול. בבחירת מידה בודקים את טבלת המידות בדף המוצר.",
    "groups": []
+  },
+  {
+   "id": "abroad",
+   "name": "פתרונות לטיול בחו\"ל",
+   "title": "טסים בראש שקט",
+   "intro": "מתאמי חשמל לכל מדינה, מנעול למזוודה, אריזה חכמה וחום לרגליים. מוצרים שפותרים את הבעיות של הטיול בחו\"ל, מחנויות רשמיות בלבד.",
+   "groups": []
   }
  ],
  "products": [
@@ -2010,6 +2017,157 @@
     "trek",
     "day"
    ]
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005012521195389",
+   "brand": "UGREEN",
+   "title": "מתאם נסיעות לכל העולם, מטעין 4 מכשירים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 25.8,
+   "rating": 99.5,
+   "sold": 1336,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2b8a088c37bf42f2bff8f5c3f1be68fap.jpg",
+   "tid": "",
+   "acts": [
+    "abroad"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005009205983512",
+   "brand": "Baseus",
+   "title": "מתאם נסיעות עם כבל נשלף ו-2 שקעים",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 33.29,
+   "rating": 97.4,
+   "sold": 6653,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0d23ef0cc9574609bbf931a9a2fcea2ep.jpg",
+   "tid": "",
+   "acts": [
+    "abroad"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005008660966242",
+   "brand": "DIDA BEAR",
+   "title": "מנעול TSA למזוודה, עם קוד",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 2.86,
+   "rating": 96.5,
+   "sold": 5359,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sce7c743442ab4851b331edddb6c8b649G.jpg",
+   "tid": "",
+   "acts": [
+    "abroad"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005007426667055",
+   "brand": "BAGSMART",
+   "title": "קוביות אריזה עם דחיסה, יותר מקום במזוודה",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 19.04,
+   "rating": 100.0,
+   "sold": 109,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa9ca34bfcc384ea99d377f9ef8405ee33.jpg",
+   "tid": "",
+   "acts": [
+    "abroad",
+    "trek"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005009654842799",
+   "brand": "Hagibis",
+   "title": "נרתיק קשיח למטענים, כבלים ואוזניות",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 18.0,
+   "rating": 98.1,
+   "sold": 2565,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sffb5626f2ba343a89073b138886e2b3eC.jpg",
+   "tid": "",
+   "acts": [
+    "abroad"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005010297448503",
+   "brand": "WRELS",
+   "title": "גרבי צמר מרינו חמות, לטרק ולחורף",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 4.43,
+   "rating": 96.6,
+   "sold": 1250,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2910430287e1489e8b355425ca08e003p.jpg",
+   "tid": "",
+   "acts": [
+    "abroad",
+    "trek",
+    "camp"
+   ],
+   "status": "pending"
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005007878054892",
+   "brand": "Naturehike",
+   "title": "נעלי בית מפוך, לאוהל ולבקתת סקי",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": 15.51,
+   "rating": 97.6,
+   "sold": 445,
+   "link": "",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd55a316fad114e3e888cb3351d552cd1i.png",
+   "tid": "",
+   "acts": [
+    "abroad",
+    "camp"
+   ],
+   "status": "pending"
   }
  ],
  "activities": [
@@ -2036,6 +2194,12 @@
    "name": "טרק ושביל ישראל",
    "icon": "🎒",
    "intro": "כמה ימים עם הכול על הגב. ציוד קל, קומפקטי ועמיד, שכל גרם בו נחשב."
+  },
+  {
+   "id": "abroad",
+   "name": "טיול בחו\"ל",
+   "icon": "✈️",
+   "intro": "טסים לטרק, לסקי או לטיול עירוני. מטעינים בכל שקע, נועלים את המזוודה ואורזים יותר במקום קטן."
   }
  ]
 }
