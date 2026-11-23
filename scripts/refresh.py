@@ -79,7 +79,8 @@ for p in prods:
     new_price, new_rate, new_sold = num(x.get('target_sale_price')), num(x.get('evaluate_rate')), num(x.get('lastest_volume'))
     # מוצר עם "גרסה מומלצת" (variant): המחיר נקבע ידנית לגרסה המלאה, וה-API מחזיר את המחיר הנמוך ביותר
     # (לפעמים של חלק בלבד). לכן לא דורסים את המחיר שלו.
-    if not p.get('variant'):
+    # מוצר עם hide_price: יורם ביקש בלי מחיר באתר, ולכן לא ממלאים לו מחיר.
+    if not p.get('variant') and not p.get('hide_price'):
         if new_price and p.get('price') and abs(new_price - p['price']) / p['price'] > PRICE_ALERT:
             price_moves.append((p, p['price'], new_price))
         if new_price: p['price'] = round(new_price, 2)

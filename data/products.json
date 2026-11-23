@@ -2161,6 +2161,30 @@
     "abroad",
     "camp"
    ]
+  },
+  {
+   "collection": "abroad",
+   "group": "",
+   "id": "1005013054115377",
+   "brand": "UGREEN",
+   "title": "מאתר חכם למזוודה, לאייפון ולאנדרואיד",
+   "code": "",
+   "kind": "",
+   "fits": "",
+   "note": "",
+   "price": null,
+   "hide_price": true,
+   "rating": null,
+   "sold": 2000,
+   "link": "",
+   "img": "media/1005013054115377/main.jpg",
+   "tid": "",
+   "acts": [
+    "abroad",
+    "trek",
+    "camp"
+   ],
+   "status": "pending"
   }
  ],
  "activities": [
