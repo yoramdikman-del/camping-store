@@ -1,1594 +1,2519 @@
 {
- "date": "2026-11-23T19:22",
+ "date": "2026-11-23T20:00",
  "queries": [
-  "UGREEN Find My tracker",
-  "UGREEN FineTrack"
+  "FLEXTAIL air pump",
+  "FLEXTAIL camping lantern",
+  "FLEXTAIL pump lantern",
+  "WATERSY thermos bottle",
+  "WATERSY vacuum bottle 500ml"
  ],
- "count": 91,
- "errors": [],
+ "count": 143,
+ "errors": [
+  {
+   "q": "FLEXTAIL air pump",
+   "method": "aliexpress.affiliate.hotproduct.query",
+   "page": 1,
+   "res": "{'aliexpress_affiliate_hotproduct_query_response': {'resp_result': {'resp_code': 405, 'resp_msg': 'The result is empty'}, 'request_id': '2151e8f117954640335783828', '_trace_id_': '0b8ded7b179546403357"
+  },
+  {
+   "q": "WATERSY thermos bottle",
+   "method": "aliexpress.affiliate.hotproduct.query",
+   "page": 1,
+   "res": "{'aliexpress_affiliate_hotproduct_query_response': {'resp_result': {'resp_code': 405, 'resp_msg': 'The result is empty'}, 'request_id': '212a73a517954640466267805', '_trace_id_': '2141149b179546404662"
+  },
+  {
+   "q": "WATERSY vacuum bottle 500ml",
+   "method": "aliexpress.affiliate.hotproduct.query",
+   "page": 1,
+   "res": "{'aliexpress_affiliate_hotproduct_query_response': {'resp_result': {'resp_code': 405, 'resp_msg': 'The result is empty'}, 'request_id': '212a640e17954640488047642', '_trace_id_': '0b8ded7b179546404880"
+  }
+ ],
  "products": [
   {
-   "id": "1005012571834968",
-   "title": "UGREEN Finder Pro Tracker Tags (iOS Only) Solar Powered Bluetooth Air Smart Tags Item Finder Compatible with Apple Find My",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "22.39",
-   "orig_price": "42.84",
-   "rating": "97.9%",
-   "sold": 377,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S614d0050cb0540d3bb16304b6e55c8b2J.jpg",
-   "url": "https://www.aliexpress.com/item/1005012571834968.html",
+   "id": "1005011617431929",
+   "title": "FLEXTAIL TINY PUMP 3X - 5kPa Ultra-Light Portable Air Pump, 5-Mode Camping Light, Multi-Use for Camping, Travel & Water Sports",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "50.19",
+   "orig_price": "114.98",
+   "rating": "95.7%",
+   "sold": 1384,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa12878016bf84108ad365f51e141c767k.jpg",
+   "url": "https://www.aliexpress.com/item/1005011617431929.html",
    "commission": "7.0%",
-   "category": "Portable Audio & Video",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005007500287105",
-   "title": "UGREEN Finder Security SmartTrack Link SmartTag With Apple Find My Key Bluetooth Tracker For Earbud Luggage MFi Phone Finder IOS",
-   "shop": "UGREEN Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1102303403",
-   "price": "16.79",
-   "orig_price": "26.65",
-   "rating": "100.0%",
-   "sold": 21,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7e8c6c72f0214435b961960c488b819em.jpg",
-   "url": "https://www.aliexpress.com/item/1005007500287105.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012165552914",
-   "title": "【Soccer-Shaped Design】UGREEN FineTrack Smart Finder Tracker for iOS Apple Find My | 5-Year Battery Life | IP68 Waterproof",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "17.55",
-   "orig_price": "21.56",
-   "rating": "97.3%",
-   "sold": 409,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Seade78dcfaf14e639f5f7345e5a518a5P.jpg",
-   "url": "https://www.aliexpress.com/item/1005012165552914.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005007054331505",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "14.10",
-   "orig_price": "49.38",
-   "rating": "96.2%",
-   "sold": 1548,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005007054331505.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012823957853",
-   "title": "UGREEN FineTrack Mini Duo 2-in-1 Global Positioning Tracker, Smart Bluetooth Item   Locator,Anti-Lost Tag for Bags. Keys",
-   "shop": "UGREEN Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5792934",
-   "price": "15.67",
-   "orig_price": "29.98",
-   "rating": "96.5%",
-   "sold": 2869,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb321e0ba85134ad3aa5b51542bc48f511.jpg",
-   "url": "https://www.aliexpress.com/item/1005012823957853.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005011739021613",
-   "title": "UGREEN Finder Slim 2 Global Tracker for Apple Find My, Official Certification, 7-Year Battery, Non-Rechargeable,Smart Tag",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "17.91",
-   "orig_price": "34.27",
-   "rating": "100.0%",
-   "sold": 105,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scc7fbcc2deab4db98225e338a4a92030x.jpg",
-   "url": "https://www.aliexpress.com/item/1005011739021613.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012629441242",
-   "title": "UGREEN FineTrack Slim Duo Smart Item Tracker Dual System Compatible with iOS Android Global Tracking 5 Years Bluetooth Finder",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "20.15",
-   "orig_price": "38.55",
-   "rating": "99.2%",
-   "sold": 1152,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S204d38a2cb5846c887cb6eb3b4e1ef67j.jpg",
-   "url": "https://www.aliexpress.com/item/1005012629441242.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012689311181",
-   "title": "【Dual System Compatibility】Soccer Design Smart Finder For Apple Find My (iOS) & Find Hub App (Android) Bluetooth Tracker",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "17.82",
-   "orig_price": "41.70",
-   "rating": "98.8%",
-   "sold": 195,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9c8c83fa8286461a80e04195273d07b28.jpg",
-   "url": "https://www.aliexpress.com/item/1005012689311181.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008463038071",
-   "title": "UGREEN Smart Tag Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery For iPhone Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "11.94",
-   "orig_price": "22.84",
-   "rating": "98.6%",
-   "sold": 1827,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S77f458129b0b4dc2872e65ab60f9bec2w.jpg",
-   "url": "https://www.aliexpress.com/item/1005008463038071.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008806003571",
-   "title": "UGREEN Wallet Finder, Smart Bluetooth Tracker Card and Item Locator for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "UGREEN Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1102303403",
-   "price": "21.24",
-   "orig_price": "38.55",
-   "rating": "100.0%",
-   "sold": 33,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdbc03d4125fa454ba646969afefea1cab.jpg",
-   "url": "https://www.aliexpress.com/item/1005008806003571.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008404887529",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "UGREEN Flagship Store",
-   "shop_url": "https://www.aliexpress.com/store/5569188",
-   "price": "14.39",
-   "orig_price": "22.84",
-   "rating": "97.0%",
-   "sold": 104,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4e6e901f114f40a597a9234eb43dcf4el.jpg",
-   "url": "https://www.aliexpress.com/item/1005008404887529.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005006289686388",
-   "title": "UGREEN FineTrack Mini Duo 2‑in‑1 Tracker, Smart Bluetooth Item Locator Tag For Apple Find My (iOS) & Find Hub App (Android)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "17.02",
-   "orig_price": "29.98",
-   "rating": "100.0%",
-   "sold": 48,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S46ac3da426c74207b573bc9c2d6408feb.jpg",
-   "url": "https://www.aliexpress.com/item/1005006289686388.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005007669808055",
-   "title": "UGREEN USB C Type-C Bluetooth 5.3 Transmitter aptX HD AD Audio Adapter for PC PS5 PS4 Nintendo Switch Headset Speaker Mic",
-   "shop": "UGREEN Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1102303403",
-   "price": "12.86",
-   "orig_price": "22.65",
-   "rating": "96.3%",
-   "sold": 1026,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2ed5055a25444b23b48473dafe47b249K.jpg",
-   "url": "https://www.aliexpress.com/item/1005007669808055.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005007861432892",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "14.93",
-   "orig_price": "48.17",
-   "rating": "90.0%",
-   "sold": 11,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005007861432892.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008203180766",
-   "title": "UGREEN Finder Security SmartTrack Link SmartTag With Apple Find My Key Bluetooth Tracker For Earbud Luggage MFi Phone Finder IOS",
-   "shop": "UGREEN Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5792934",
-   "price": "14.69",
-   "orig_price": "26.65",
-   "rating": "100.0%",
-   "sold": 30,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfdeda51b92424e27a1e155913e623a44u.jpg",
-   "url": "https://www.aliexpress.com/item/1005008203180766.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005009384400767",
-   "title": "【2-Pack】 Smart Tag Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery For iPhone Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "22.94",
-   "orig_price": "49.86",
-   "rating": "95.6%",
-   "sold": 269,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8b1519b228ed41f1b79c33f0328c31cdw.jpg",
-   "url": "https://www.aliexpress.com/item/1005009384400767.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008349940884",
-   "title": "UGREEN Wallet Finder, Smart Tag Bluetooth Tracker Card Item Locator for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "13.43",
-   "orig_price": "25.70",
-   "rating": "96.4%",
-   "sold": 1129,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S103ba11d4e384cb5acf54ff24e80e4dcu.jpg",
-   "url": "https://www.aliexpress.com/item/1005008349940884.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012824307783",
-   "title": "UGREEN FineTrack Mini2 Air Tracker Tags (iOS Only) 4 Pack | Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "13.88",
-   "orig_price": "36.10",
-   "rating": "99.1%",
-   "sold": 233,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S01c441976e394115ac7b227491c67614V.jpg",
-   "url": "https://www.aliexpress.com/item/1005012824307783.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013054115377",
-   "title": "UGREEN Smart Item Tracker Work with Apple Find My & Google Find Hub Bluetooth Finder For iOS & Android C Charging Anti‑Lost Tag",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "12.69",
-   "orig_price": "24.27",
-   "rating": "99.0%",
-   "sold": 1886,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se18366ed1c0b47718cf71bbed90858e8p.jpg",
-   "url": "https://www.aliexpress.com/item/1005013054115377.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008451137560",
-   "title": "Smart Bluetooth Tracker,Keys Finder Item Locator SmartTag Air Tag Up to 1 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "13.49",
-   "orig_price": "43.52",
-   "rating": "92.5%",
-   "sold": 10,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S96d68f6f799a4ba594ed483d549b5e26i.jpg",
-   "url": "https://www.aliexpress.com/item/1005008451137560.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005006394342430",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "15.56",
-   "orig_price": "26.65",
-   "rating": "98.8%",
-   "sold": 143,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005006394342430.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008404880199",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "UGREEN Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5792934",
-   "price": "14.39",
-   "orig_price": "22.84",
-   "rating": "95.9%",
-   "sold": 88,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2d67a5f735174978843820564e070561v.jpg",
-   "url": "https://www.aliexpress.com/item/1005008404880199.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012402276356",
-   "title": "FineTrack2 Air Tracker Tags (iOS Only),Soccer-Shaped Key Finder Compatible with Apple Find My,Bluetooth Tracker for Bags",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "19.21",
-   "orig_price": "41.76",
+   "id": "1005003156311457",
+   "title": "FLEXTAIL TINY PUMP - Electric Air Pump Portable Mini Camping Pump Rechargeable for Air Bed Mattress Pool Floats Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "26.09",
+   "orig_price": "30.29",
    "rating": "100.0%",
    "sold": 14,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd43ae3ddf6954c6785ad4a623f189ad4c.jpg",
-   "url": "https://www.aliexpress.com/item/1005012402276356.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se64ccfb173924b0fbed8429462eb477fb.jpg",
+   "url": "https://www.aliexpress.com/item/1005003156311457.html",
    "commission": "7.0%",
-   "category": "Portable Audio & Video",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN Find My tracker"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern"
    ]
   },
   {
-   "id": "1005006889951387",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "16.79",
-   "orig_price": "26.65",
-   "rating": "91.1%",
-   "sold": 31,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005006889951387.html",
+   "id": "1005009200799215",
+   "title": "FLEXTAIL Electric Air Pump, Portable Camping Pump with 3 Level Ambient Light for Air Bed, Sleeping Pads, Vacuum Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "49.36",
+   "orig_price": "96.11",
+   "rating": "96.8%",
+   "sold": 222,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd78a368370a34263aff0fb06a907f425M.jpg",
+   "url": "https://www.aliexpress.com/item/1005009200799215.html",
    "commission": "7.0%",
-   "category": "Portable Audio & Video",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005006972638638",
-   "title": "UGREEN Finder Security SmartTrack Link SmartTag With Apple Find My Key Bluetooth Tracker For Earbud Luggage MFi Phone Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "14.40",
-   "orig_price": "51.22",
-   "rating": "100.0%",
-   "sold": 11,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005006972638638.html",
+   "id": "1005007960337659",
+   "title": "FLEXTAIL Compact Travel Case Protective Organizer Mini Storage Box for TINY PUMP and MAX PUMP, Air Nozzles, Cables",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "27.09",
+   "orig_price": "30.69",
+   "rating": "95.9%",
+   "sold": 91,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S561fe79f0b99434385b33c62210f578cy.png",
+   "url": "https://www.aliexpress.com/item/1005007960337659.html",
    "commission": "7.0%",
-   "category": "Access Building Automation",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005008894766877",
-   "title": "UGREEN FineTrack Smart Finder Compatible with Apple Find My (iOS Only) Bluetooth Tracker Tags, Item Finder Smart Tag for Key Car",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.39",
-   "orig_price": "22.84",
-   "rating": "96.7%",
-   "sold": 61,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd1f4852e212b49e3a1645475020002e3e.jpg",
-   "url": "https://www.aliexpress.com/item/1005008894766877.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012182863376",
-   "title": "FineTrack Smart Finder GPS Tracker for iOS Apple Find My | 5-Year Battery Life | IP68 Waterproof | Soccer Ball Design",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "18.13",
-   "orig_price": "40.30",
-   "rating": "86.7%",
-   "sold": 12,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S678bfd701ed54e04abdf4f84f32154b0D.jpg",
-   "url": "https://www.aliexpress.com/item/1005012182863376.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005006463112456",
-   "title": "UGREEN Finder Security SmartTrack Link SmartTag With Apple Find My Key Bluetooth Tracker For Earbud Luggage MFi Phone Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.69",
-   "orig_price": "26.65",
-   "rating": "92.5%",
-   "sold": 44,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb76b48fc89614b6db9356df35d802873h.jpg",
-   "url": "https://www.aliexpress.com/item/1005006463112456.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008345662145",
-   "title": "UGREEN Security SmartTrack Card Works with Apple Find My Wallet Bluetooth Tracker Phone Finder Water Resistant (iOS Only)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.69",
-   "orig_price": "26.65",
-   "rating": "98.4%",
-   "sold": 34,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6d550a953d3e4a8d860c33af9176d575T.jpg",
-   "url": "https://www.aliexpress.com/item/1005008345662145.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005010400214056",
-   "title": "【Dual System Compatibility】Smart Finder For Apple Find My (iOS) & Find Hub App (Android) 5-Year Battery Bluetooth Tracker Card",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "32.04",
-   "orig_price": "68.16",
-   "rating": "91.1%",
-   "sold": 30,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbe5e5eb048394b97803608713e5cba701.jpg",
-   "url": "https://www.aliexpress.com/item/1005010400214056.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008462865952",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "UGREEN Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1102303403",
-   "price": "14.39",
-   "orig_price": "22.84",
-   "rating": "100.0%",
-   "sold": 43,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9a1c39e90c0b4ecf9219e69071829208j.jpg",
-   "url": "https://www.aliexpress.com/item/1005008462865952.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008345254688",
-   "title": "UGREEN Security SmartTrack Card Works with Apple Find My Wallet Bluetooth Tracker Phone Finder Water Resistant (iOS Only)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "21.24",
-   "orig_price": "38.55",
-   "rating": "100.0%",
-   "sold": 21,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdfd3f2b595714c2785b178fe598a9c62T.jpg",
-   "url": "https://www.aliexpress.com/item/1005008345254688.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008387243183",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.39",
-   "orig_price": "22.84",
-   "rating": "97.0%",
-   "sold": 36,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saa90611a046244d5b5ac9471c9f1475aq.jpg",
-   "url": "https://www.aliexpress.com/item/1005008387243183.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012543225062",
-   "title": "UGREEN FineTrack Mini 2 Honkai: Star Rail Edition Smart Bluetooth Tracker, FineTrack Mini 2, Apple Find My Compatible, iOS Only",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "15.38",
-   "orig_price": "29.99",
-   "rating": "100.0%",
-   "sold": 63,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfc0a3075a7934b6eb05cd8242d13db7dP.jpg",
-   "url": "https://www.aliexpress.com/item/1005012543225062.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008451372409",
-   "title": "UGREEN Security SmartTrack Card Works with Apple Find My Wallet Bluetooth Tracker Phone Finder Water Resistant (iOS Only)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "28.94",
-   "orig_price": "34.72",
-   "rating": "95.5%",
-   "sold": 132,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S26361e7ac3e54931b6f292cccafc5c064.jpg",
-   "url": "https://www.aliexpress.com/item/1005008451372409.html",
-   "commission": "7.0%",
-   "category": "Car Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008350793962",
-   "title": "UGREEN Wallet Finder, Smart Bluetooth Tracker Card and Item Locator for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "UGREEN Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5792934",
-   "price": "21.89",
-   "orig_price": "38.55",
-   "rating": "100.0%",
-   "sold": 126,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9605cc1cc10944db986eb6df8552cbccS.jpg",
-   "url": "https://www.aliexpress.com/item/1005008350793962.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005006956411248",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "19.07",
-   "orig_price": "63.42",
-   "rating": "96.3%",
-   "sold": 34,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005006956411248.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008569614872",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "12.13",
-   "orig_price": "14.91",
-   "rating": "97.3%",
-   "sold": 718,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S96d68f6f799a4ba594ed483d549b5e26i.jpg",
-   "url": "https://www.aliexpress.com/item/1005008569614872.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012160222371",
-   "title": "UGREEN FineTrack Mini Smart Tag Finder GPS Tracker for iOS Apple Find My, 5-Year Battery, IP68 Waterproof, Square Design",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.59",
-   "orig_price": "25.70",
-   "rating": "97.0%",
-   "sold": 485,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S182f42d910c44bdbb68c5e996f5948023.jpg",
-   "url": "https://www.aliexpress.com/item/1005012160222371.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008346558485",
-   "title": "UGREEN Wallet Finder, Smart Bluetooth Tracker Card and Item Locator for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "24.29",
-   "orig_price": "38.55",
-   "rating": "96.3%",
-   "sold": 52,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S796243de59884d69b673c515d730b8051.jpg",
-   "url": "https://www.aliexpress.com/item/1005008346558485.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005008356676466",
-   "title": "Wallet Finder, Smart Bluetooth Tracker Card and Item Locator for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "19.07",
-   "orig_price": "68.30",
-   "rating": "97.2%",
-   "sold": 108,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S796243de59884d69b673c515d730b8051.jpg",
-   "url": "https://www.aliexpress.com/item/1005008356676466.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005010168139255",
-   "title": "UGREEN FineTrack (iOS Only)Air Tracker Tags, 1-Year USB-C Rechargeable Battery Bluetooth Tracker Compatible with Apple Find My",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "14.91",
-   "orig_price": "25.70",
-   "rating": "95.3%",
-   "sold": 322,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8831fa0c8c4643129dd3ef65cf282708R.jpg",
-   "url": "https://www.aliexpress.com/item/1005010168139255.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012784440166",
-   "title": "UGREEN FineTrack Mini Duo 2-in-1 Global Positioning Tracker, Smart Bluetooth Item   Locator,Anti-Lost Tag for Bags, Keys",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "16.22",
-   "orig_price": "37.72",
-   "rating": "97.7%",
-   "sold": 561,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S554f7840bb3649f78786001556c7e5e8P.jpg",
-   "url": "https://www.aliexpress.com/item/1005012784440166.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005010400481935",
-   "title": "【Dual System Compatibility】Smart Finder For Apple Find My (iOS) & Find Hub App (Android) 5-Year Battery Bluetooth Tracker Card",
-   "shop": "UGREEN Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5792934",
-   "price": "20.58",
-   "orig_price": "28.88",
-   "rating": "82.2%",
-   "sold": 48,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sad0d18b774e84827b2206c65ea694797b.jpg",
-   "url": "https://www.aliexpress.com/item/1005010400481935.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005010202483837",
-   "title": "【 Charging Model 】Smart Tag Bluetooth Item Finder USB C Rechargeable Battery Last 1 Year Tracker For Apple Find My (iOS Only)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "20.85",
-   "orig_price": "44.36",
-   "rating": "100.0%",
-   "sold": 28,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8831fa0c8c4643129dd3ef65cf282708R.jpg",
-   "url": "https://www.aliexpress.com/item/1005010202483837.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008404235407",
-   "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery Phone Finder For Apple Find My (Only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "12.71",
-   "orig_price": "15.46",
-   "rating": "97.0%",
-   "sold": 1932,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd2c581766392489fb23a499a92549892k.jpg",
-   "url": "https://www.aliexpress.com/item/1005008404235407.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005011616009151",
-   "title": "UGREEN FineTrack Item Tracker, Worldwide Locator, 1-Year Battery Life, Wireless Charging, 2-Pack for iOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "15.01",
-   "orig_price": "22.21",
-   "rating": "93.8%",
-   "sold": 44,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbfb73608504e468db4970e5872b6355cH.jpg",
-   "url": "https://www.aliexpress.com/item/1005011616009151.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012158850499",
-   "title": "【Only iOS】UGREEN FineTrack Smart Finder Tracker for iOS Apple Find My | 5-Year Battery Life | IP68 Waterproof",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "16.50",
-   "orig_price": "28.56",
-   "rating": "98.7%",
-   "sold": 543,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2c7538ff43c4e80adec1d79a119f147H.jpg",
-   "url": "https://www.aliexpress.com/item/1005012158850499.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008850738553",
-   "title": "UGREEN Smart Tag Bluetooth Tracker, Keys Finder Item Locator SmartTag Up to 2 Year Battery For iPhone Apple Find My (only IOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "12.45",
-   "orig_price": "22.84",
-   "rating": "100.0%",
-   "sold": 31,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3fbe5cd038354a0aad457a4e3364d25fP.jpg",
-   "url": "https://www.aliexpress.com/item/1005008850738553.html",
-   "commission": "7.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN Find My tracker"
-   ]
-  },
-  {
-   "id": "1005012339158756",
-   "title": "UGREEN FineTrack Smart Finder Compatible with Find My (iOS Only) 2-Year Replaceable Battery Bluetooth Tracker Tags",
-   "shop": "UGREEN Brand Store",
-   "shop_url": "https://www.aliexpress.com/store/1105534064",
-   "price": "16.69",
-   "orig_price": "20.11",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S274ec11f877c4cae83db4719716d7e9dB.jpg",
-   "url": "https://www.aliexpress.com/item/1005012339158756.html",
-   "commission": "8.0%",
-   "category": "Measurement & Analysis Instruments",
-   "queries": [
-    "UGREEN Find My tracker",
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005008351593672",
-   "title": "【SA】UGREEN Wallet, Smart Bluetooth Card for Luggage Tags Passports with Apple Find My App (Only iOS)",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "22.36",
-   "orig_price": "38.55",
-   "rating": "100.0%",
-   "sold": 16,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f6e1b967f94fce907261ae9ed3d41ce.jpg",
-   "url": "https://www.aliexpress.com/item/1005008351593672.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013070993942",
-   "title": "For UGREEN Tag Track Silicone Protective Case Shockproof Anti-Scratch Cover for Ugreen Finetrack Sleeve Keys Luggage Pets Bag",
-   "shop": "Shop709002 Store",
-   "shop_url": "https://www.aliexpress.com/store/709002",
-   "price": "1.80",
-   "orig_price": "2.19",
-   "rating": "90.0%",
-   "sold": 36,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sad26d562215446dc812535c3bcf670fav.jpg",
-   "url": "https://www.aliexpress.com/item/1005013070993942.html",
-   "commission": "7.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013242005844",
-   "title": "New Silicone Protective Case Anti-Scratch Dustproof Soft Shell Tracker Protector Cover for UGREEN FineTrack for Pet Collar",
-   "shop": "Choice CCCDigital Store",
-   "shop_url": "https://www.aliexpress.com/store/1105458821",
-   "price": "0.96",
-   "orig_price": "1.52",
+   "id": "1005008941742952",
+   "title": "FLEXTAIL Portable Air Pump, Electric Inflator, 300L/min High Air Flow, Ideal for Sleeping Pads, Air Bed, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "32.39",
+   "orig_price": "64.78",
    "rating": null,
    "sold": 5,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd125575721a947d2bf97fb9762a05e6bT.jpg",
-   "url": "https://www.aliexpress.com/item/1005013242005844.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se8ef269aae854f8e8c04093986ae8726G.jpg",
+   "url": "https://www.aliexpress.com/item/1005008941742952.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013336120953",
-   "title": "Shockproof Anti-Scratch Silicone Protective Case,Compatible with UGREEN Finetrack Tracker,Ideal for Keys,Luggage,Pets,Backpacks",
+   "id": "1005008940624123",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "51.99",
+   "orig_price": "103.98",
+   "rating": "0.0%",
+   "sold": 3,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S830a3af0de4c4e4bbbf7e2aca5177ff44.jpg",
+   "url": "https://www.aliexpress.com/item/1005008940624123.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005008414412561",
+   "title": "FLEXTAIL MAX PUMP 2 PLUS - Electric Air Pump with Camping Light and Emergency Power Supply, 4800mAh Battery, Dual Pressure Level",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "50.59",
+   "orig_price": "148.79",
+   "rating": "97.8%",
+   "sold": 61,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S59d90643ca094e87a96a5f1691f7297dy.png",
+   "url": "https://www.aliexpress.com/item/1005008414412561.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005006437139002",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "18.85",
+   "orig_price": "37.70",
+   "rating": "95.4%",
+   "sold": 465,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3afc0827955a475ca9f3a786b078abd7m.jpg",
+   "url": "https://www.aliexpress.com/item/1005006437139002.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005009249378396",
+   "title": "FLEXTAIL TINY PUMP 2 - Electric Air Pump 4kPa Portable Camping Pump for Air Bed Sleeping Pads Vacuum Bag Pool Floats",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "28.49",
+   "orig_price": "52.76",
+   "rating": "100.0%",
+   "sold": 6,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S58aef8e15f684a03a6a5aeb04ec9cca7v.jpg",
+   "url": "https://www.aliexpress.com/item/1005009249378396.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005008409314731",
+   "title": "FLEXTAIL EVO PUMP 3 - 1000L/min High Airflow Electric Air Pump Quick Fill Camping Pump for Air Bed Mattress Pool Floats Boats",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "44.79",
+   "orig_price": "89.58",
+   "rating": "100.0%",
+   "sold": 13,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S99fdd49b8d74484da41fece9d1499bfbh.jpg",
+   "url": "https://www.aliexpress.com/item/1005008409314731.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005012442229169",
+   "title": "FLEXTAIL EVO SUP PUMP 200 - 45PSI Cordless Rechargeable Air Pump,15600mAh High-performance Cell Ideal for SUP & Pickup & Cars",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "64.89",
+   "orig_price": "122.37",
+   "rating": "95.0%",
+   "sold": 58,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa50b229ff3be4282ad43fa1d136f2e3eB.png",
+   "url": "https://www.aliexpress.com/item/1005012442229169.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005004436986714",
+   "title": "FLEXTAIL MAX PUMP 2 PLUS - Portable Electric Air Pump with Adjustable Lighting, USB Power Source, and Dual Pressure Levels",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "36.60",
+   "orig_price": "47.38",
+   "rating": "100.0%",
+   "sold": 14,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S59d90643ca094e87a96a5f1691f7297dy.png",
+   "url": "https://www.aliexpress.com/item/1005004436986714.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005007345413368",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
    "shop": "Stone's Store",
    "shop_url": "https://www.aliexpress.com/store/1103573332",
-   "price": "1.54",
-   "orig_price": "3.08",
-   "rating": "99.8%",
-   "sold": 394,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3e4d265f27594cc99320cded94c2836cY.jpg",
-   "url": "https://www.aliexpress.com/item/1005013336120953.html",
+   "price": "34.66",
+   "orig_price": "76.02",
+   "rating": "98.0%",
+   "sold": 1029,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa65dd70c8794430dab6a4de978760115O.jpg",
+   "url": "https://www.aliexpress.com/item/1005007345413368.html",
    "commission": "7.0%",
-   "category": "Pet Products",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005012941391936",
-   "title": "Protective Case for UGREEN FineTrack Anti-Scratch Soft Shell Dustproof Tracker Protector Cover for Pet Collar Dogs Cats Backpack",
-   "shop": "MT88 Store",
-   "shop_url": "https://www.aliexpress.com/store/912136246",
-   "price": "3.37",
-   "orig_price": "5.03",
+   "id": "1005007519023875",
+   "title": "FLEXTAIL EVO PUMP 3 - 1000L/min Electric Air Pump, Quick Inflation & Deflation, Ideal for Air Mattress, Airbed, Boats",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "29.95",
+   "orig_price": "37.68",
+   "rating": "84.4%",
+   "sold": 21,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scee52014c4774054847faad408522249i.jpg",
+   "url": "https://www.aliexpress.com/item/1005007519023875.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007098777529",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "53.81",
+   "orig_price": "134.43",
+   "rating": "93.8%",
+   "sold": 529,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa65dd70c8794430dab6a4de978760115O.jpg",
+   "url": "https://www.aliexpress.com/item/1005007098777529.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005003750312363",
+   "title": "FLEXTAIL TINY PUMP X - Portable Camping Air Pump with 1300mAh Battery Rechargeable for Pool Floats Air Mattress Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "23.99",
+   "orig_price": "44.43",
    "rating": "100.0%",
-   "sold": 9,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S36cc62ab7561466288282cd42b007fee6.jpg",
-   "url": "https://www.aliexpress.com/item/1005012941391936.html",
-   "commission": "8.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005007797845729",
-   "title": "UGREEN Finder Security SmartTrack Link Smart Tag With Apple Find My Key Bluetooth GPS Tracker For Earbud Luggage MFi Finder IOS",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "19.71",
-   "orig_price": "21.73",
-   "rating": "96.0%",
-   "sold": 9,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10c5e0b1b1ef47c8b294d0e449f758ece.jpg",
-   "url": "https://www.aliexpress.com/item/1005007797845729.html",
+   "sold": 7,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7fb10fa767fb4389b8dca17e2f42a427i.jpg",
+   "url": "https://www.aliexpress.com/item/1005003750312363.html",
    "commission": "7.0%",
-   "category": "Access Building Automation",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013071304378",
-   "title": "Silicone Protective Case For UGREEN Tag Track Shockproof Anti-Scratch Cover for Ugreen Finetrack Sleeve Keys Luggage Pets Bag",
-   "shop": "KonouYouKo Smart Home Store",
-   "shop_url": "https://www.aliexpress.com/store/1100184215",
-   "price": "1.88",
-   "orig_price": "2.24",
+   "id": "1005006904692270",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "18.25",
+   "orig_price": "39.90",
+   "rating": "98.0%",
+   "sold": 1944,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7fb10fa767fb4389b8dca17e2f42a427i.jpg",
+   "url": "https://www.aliexpress.com/item/1005006904692270.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005007445852268",
+   "title": "FLEXTAIL TINY PUMP 2024 & X 2024 - Mini Air Pump, Portable Camping Pump for Pool Floats, Air Bed Mattress, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "26.59",
+   "orig_price": "30.77",
    "rating": "100.0%",
-   "sold": 47,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9a25dc7ed8174a1c999e01e3213a9d67K.jpg",
-   "url": "https://www.aliexpress.com/item/1005013071304378.html",
+   "sold": 6,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S807387a119f34ee4a1e288a757e38242w.jpg",
+   "url": "https://www.aliexpress.com/item/1005007445852268.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005011741178483",
-   "title": "UGREEN Finder Slim 2 Global Tracker for Apple Find My, 5-Year Battery, Non-Rechargeable",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "26.46",
-   "orig_price": "58.80",
-   "rating": "100.0%",
-   "sold": 9,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6ec70086f1f941d393bf1d191ed3a681s.jpg",
-   "url": "https://www.aliexpress.com/item/1005011741178483.html",
+   "id": "1005007142361622",
+   "title": "FLEXTAIL ZERO PUMP - 30g Camping Air Pump,  Portable Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "40.89",
+   "orig_price": "98.02",
+   "rating": "93.2%",
+   "sold": 182,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S830a3af0de4c4e4bbbf7e2aca5177ff44.jpg",
+   "url": "https://www.aliexpress.com/item/1005007142361622.html",
    "commission": "7.0%",
-   "category": "Portable Audio & Video",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005009328610726",
-   "title": "UGREEN Bluetooth Tracker For Samsung Galaxy, Smart Tag GPS Locator Tracking Device, Item Finder for Keys, Wallet, Luggage, Pets",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "21.89",
-   "orig_price": "38.55",
-   "rating": "96.4%",
-   "sold": 374,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7bc95873636e48d49cb7e84bb7a16109f.jpg",
-   "url": "https://www.aliexpress.com/item/1005009328610726.html",
+   "id": "1005007142683136",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "51.19",
+   "orig_price": "102.38",
+   "rating": "92.7%",
+   "sold": 260,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9f2c52850d3e4b43917b55a8177d9843X.jpg",
+   "url": "https://www.aliexpress.com/item/1005007142683136.html",
    "commission": "7.0%",
-   "category": "Access Building Automation",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern"
    ]
   },
   {
-   "id": "1005007899555815",
-   "title": "UGREEN FineTrack Mini Duo 2‑in‑1 Global Positioning Tracker, Smart Bluetooth Item Locator,Anti‑Lost Tag for Bags, Keys",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "15.67",
-   "orig_price": "27.13",
-   "rating": "88.7%",
-   "sold": 311,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S293c365d58e34e47bf1645de8ba465adX.jpg",
-   "url": "https://www.aliexpress.com/item/1005007899555815.html",
+   "id": "1005005963408074",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "20.15",
+   "orig_price": "40.30",
+   "rating": "98.0%",
+   "sold": 1343,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7fb10fa767fb4389b8dca17e2f42a427i.jpg",
+   "url": "https://www.aliexpress.com/item/1005005963408074.html",
    "commission": "7.0%",
-   "category": "Access Building Automation",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005006956457110",
-   "title": "AUX Bluetooth Receiver Adapter for Home Stereo System, HiFi 3.5mm RAC Bluetooth Adapter for Old Stereo Receiver",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/1103243235",
-   "price": "13.84",
-   "orig_price": "51.09",
-   "rating": "96.2%",
-   "sold": 334,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2e2f65c5cfff4fbb9aedb46d0be33efbn.jpg",
-   "url": "https://www.aliexpress.com/item/1005006956457110.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005010264068354",
-   "title": "UGREEN Smart Tracker for Google Android Devices (Android Only) Air Tracker Tags,with Find Hub App Item Finder Smart Tag",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "12.40",
-   "orig_price": "21.84",
-   "rating": "95.4%",
-   "sold": 1354,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se0f3f76f1b6647eeae3d627b6c53447aI.jpg",
-   "url": "https://www.aliexpress.com/item/1005010264068354.html",
-   "commission": "7.0%",
-   "category": "Access Building Automation",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012941411390",
-   "title": "For UGREEN FineTrack Protective Case for Pet Collar Dogs Cats Backpack Soft Silicone Anti Drop Shockproof Night Glow 4 Colors",
-   "shop": "E-shop Accessories Store",
-   "shop_url": "https://www.aliexpress.com/store/912685321",
-   "price": "3.75",
-   "orig_price": "3.75",
-   "rating": "100.0%",
+   "id": "1005008423000505",
+   "title": "FLEXTAIL MAX PUMP/MAX PUMP EPS - Electric Air Pump Camping Pump Quick Inflate Deflate for Air Mattress, Sleeping Pad, Vacuum Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "28.39",
+   "orig_price": "83.50",
+   "rating": "80.0%",
    "sold": 5,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S435fe274cab7423e894263c9f80a83d4T.jpg",
-   "url": "https://www.aliexpress.com/item/1005012941411390.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S90951542b0704fb6b4c66e3b5039806eH.jpg",
+   "url": "https://www.aliexpress.com/item/1005008423000505.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005009452856211",
-   "title": "UGREEN Bluetooth Tracker For Samsung Galaxy, Smart Tag GPS Locator Tracking Device, Item Finder for Keys, Wallet, Luggage, Pets",
-   "shop": "Ugreen Official Store",
-   "shop_url": "https://www.aliexpress.com/store/301635",
-   "price": "22.35",
-   "orig_price": "28.31",
-   "rating": "97.4%",
-   "sold": 759,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1887d398769a4c50b5f3b3c0eb1be365V.jpg",
-   "url": "https://www.aliexpress.com/item/1005009452856211.html",
+   "id": "1005007591011271",
+   "title": "FLEXTAIL MAX PUMP 3 - Electric Air Pump, Portable Camping Pump with 3 Level Ambient Light for Air Bed, Sleeping Pads, Vacuum Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "48.39",
+   "orig_price": "63.24",
+   "rating": "96.4%",
+   "sold": 980,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd78a368370a34263aff0fb06a907f425M.jpg",
+   "url": "https://www.aliexpress.com/item/1005007591011271.html",
    "commission": "7.0%",
-   "category": "Access Building Automation",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013148906035",
-   "title": "UGREEN CM816 45297 FineTrack Smart Finder Bluetooth Tracker Tag for Apple Find My iPhone iPad Mac",
-   "shop": "ForSpeed Store",
-   "shop_url": "https://www.aliexpress.com/store/1105502293",
-   "price": "18.05",
-   "orig_price": "27.35",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S14ace52045ac4d259e6d17d7b2e76f828.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148906035.html",
+   "id": "1005012258471834",
+   "title": "FLEXTAIL ZERO PUMP 2 - 28g Ultralight Camping Air Pump Electric Inflator for Sleeping Pads, 900mAh Rechargeable Battery Included",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "36.11",
+   "orig_price": "83.97",
+   "rating": "98.0%",
+   "sold": 1172,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S98c565f31f6d4b18ad827b361e87cf531.jpg",
+   "url": "https://www.aliexpress.com/item/1005012258471834.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013253549367",
-   "title": "UGREEN Mini FineTrack Smart Finder Tracker 5 Year Battery Life IP68 Waterproof Anti-lost Smart Tag for iOS Apple Find My",
-   "shop": "U.MI Digital Brand Store Store",
-   "shop_url": "https://www.aliexpress.com/store/1105297254",
-   "price": "27.59",
-   "orig_price": "29.99",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S84c1243e09124b658eda3ec300e1551fn.jpg",
-   "url": "https://www.aliexpress.com/item/1005013253549367.html",
+   "id": "1005011616717606",
+   "title": "FLEXTAIL TINY PUMP 3X - 5kPa Ultra-Light Portable Air Pump, 5-Mode Camping Light, Multi-Use for Camping, Travel & Water Sports",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "31.19",
+   "orig_price": "61.70",
+   "rating": "98.8%",
+   "sold": 442,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa12878016bf84108ad365f51e141c767k.jpg",
+   "url": "https://www.aliexpress.com/item/1005011616717606.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005012379973739",
-   "title": "UGREEN FineTrack Mini, Tracker Tag with 18-Month Replaceable Battery, 80dB Volume, Bluetooth Item Finder for Keys, Wallet",
-   "shop": "UGREEN Brand Store",
-   "shop_url": "https://www.aliexpress.com/store/1105534064",
-   "price": "44.69",
-   "orig_price": "53.84",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4b7083e4ce544d708d5da6bc6d3dd912f.jpg",
-   "url": "https://www.aliexpress.com/item/1005012379973739.html",
+   "id": "1005011696185450",
+   "title": "FLEXTAIL TINY MATTRESS PLUS 2 – Ultralight 196cm Insulated Camping Mattress, 4 Seasons Compact Air Mattress for Camping, Hiking",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "143.57",
+   "orig_price": "346.22",
+   "rating": "97.1%",
+   "sold": 769,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sca7227fdb48a4075ba6ef6b57fde10800.jpg",
+   "url": "https://www.aliexpress.com/item/1005011696185450.html",
    "commission": "7.0%",
-   "category": "Measurement & Analysis Instruments",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013136261878",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "GearAce Store",
-   "shop_url": "https://www.aliexpress.com/store/1105506274",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se9fb742d57b9433dbcb61c247afef0f6N.jpg",
-   "url": "https://www.aliexpress.com/item/1005013136261878.html",
-   "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005009864239102",
-   "title": "UGREEN FineTrack Slim Smart Finder,1.7mm Ultra-Slim Wallet Finder,IP68 Waterproof Rechargeable Bluetooth Tracker Card for Wallet",
-   "shop": "T Brand Collection Store",
-   "shop_url": "https://www.aliexpress.com/store/1105053847",
-   "price": "34.19",
-   "orig_price": "37.16",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sca63b35ff2cb4eb9b17d1057a2f81c50C.jpg",
-   "url": "https://www.aliexpress.com/item/1005009864239102.html",
-   "commission": "8.0%",
-   "category": "Packaging, Printing & Supporting Equipment",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013099079307",
-   "title": "Silicone Protective Case Anti-Scratch Dustproof Soft Shell Tracker Protector Cover for UGREEN FineTrack Dogs Cats Backpack",
-   "shop": "MIIQNUS Direct Store",
-   "shop_url": "https://www.aliexpress.com/store/5585103",
-   "price": "1.96",
-   "orig_price": "1.96",
+   "id": "1005012405392038",
+   "title": "FLEXTAIL TINY PUMP 3X - 5kPa Ultra-Light Portable Air Pump, 5-Mode Camping Lamp, Multi-Purpose for Camping & Travel",
+   "shop": "OutdoorX Store",
+   "shop_url": "https://www.aliexpress.com/store/1105394964",
+   "price": "46.29",
+   "orig_price": "110.23",
    "rating": null,
    "sold": 1,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S12a5340db03542adb4b1d0f22dea82ccI.jpg",
-   "url": "https://www.aliexpress.com/item/1005013099079307.html",
-   "commission": "7.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013148750845",
-   "title": "UGREEN CM816 45297 FineTrack Smart Finder Bluetooth Tracker Tag for Apple Find My iPhone iPad Mac",
-   "shop": "Here Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1104904187",
-   "price": "18.05",
-   "orig_price": "27.35",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S34136df0fea2484ead0ced19656c232cR.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148750845.html",
-   "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013148838247",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "Here Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1104904187",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S56ed5dca6a834580bd86b2850605556dO.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148838247.html",
-   "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013105806140",
-   "title": "New Silicone Protective Case Anti-Scratch Dustproof Soft Shell Tracker Protector Cover for UGREEN FineTrack for Pet Collar",
-   "shop": "YOUHUI Intelligent Digital Store",
-   "shop_url": "https://www.aliexpress.com/store/1102774178",
-   "price": "1.81",
-   "orig_price": "1.93",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3a96deafcab14d4dabeb9435c41bb753U.jpg",
-   "url": "https://www.aliexpress.com/item/1005013105806140.html",
-   "commission": "7.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013046135755",
-   "title": "UGREEN FineTrack Mini Duo 2-in-1 Global Positioning Tracker, Smart Bluetooth Item   Locator,Anti-Lost Tag for Bags.   JJ3329",
-   "shop": "Shop1105770488 Store",
-   "shop_url": "https://www.aliexpress.com/store/1105770488",
-   "price": "42.59",
-   "orig_price": "99.06",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S894585154345453997eee70371b7577cx.jpg",
-   "url": "https://www.aliexpress.com/item/1005013046135755.html",
-   "commission": "7.0%",
-   "category": "Portable Audio & Video",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013445703993",
-   "title": "For UGreen Finetrack Protective Case for Pet Collar Dogs Cats Backpack Soft Silicone Anti Drop Shockproof Protective Cover",
-   "shop": "Shop1103890325 Store",
-   "shop_url": "https://www.aliexpress.com/store/1103890325",
-   "price": "2.25",
-   "orig_price": "4.99",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S52fbaaf1d23a4e56ad80cfb37db488cb5.png",
-   "url": "https://www.aliexpress.com/item/1005013445703993.html",
-   "commission": "7.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005012951266022",
-   "title": "for UGREEN FineTrack Protective Case for Pet Collar Dogs Cats Backpack Soft Silicone Anti Drop Shockproof Night Glow Black Blue",
-   "shop": "99.8 Jie Li Store",
-   "shop_url": "https://www.aliexpress.com/store/912065638",
-   "price": "3.54",
-   "orig_price": "6.10",
-   "rating": null,
-   "sold": 1,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S548d2234f9f04287bc0086404ff03884p.jpg",
-   "url": "https://www.aliexpress.com/item/1005012951266022.html",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd49e9b09496a498c82c855ad995de962y.jpg",
+   "url": "https://www.aliexpress.com/item/1005012405392038.html",
    "commission": "8.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013148752618",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "ForSpeed Store",
-   "shop_url": "https://www.aliexpress.com/store/1105502293",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S722a5227890743d39deec05ec03430205.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148752618.html",
+   "id": "1005010158328497",
+   "title": "FLEXTAIL TINY SLEEPING PAD R09 - Insulated Sleeping Pad with Built-in Pump, 9.4 R-Value, Automatic Inflation/Deflation, Air Mat",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "23.79",
+   "orig_price": "45.72",
+   "rating": "100.0%",
+   "sold": 13,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4426c44444f542a49b286e4bd2294ead7.jpg",
+   "url": "https://www.aliexpress.com/item/1005010158328497.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013148684968",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "ElitePlay Store",
-   "shop_url": "https://www.aliexpress.com/store/1105502294",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdeef079f86e649f58e88a3a99d5e5e0bm.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148684968.html",
+   "id": "1005004866105669",
+   "title": "FLEXTAIL TINY PUMP 2X - 4kPa Portable Air Pump with Camping Light and 1600mAh Battery, Infaltion/Deflation/Lighting",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "31.44",
+   "orig_price": "54.26",
+   "rating": "100.0%",
+   "sold": 18,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd804b2e19ca04bca8b9e235c42c6f652S.jpg",
+   "url": "https://www.aliexpress.com/item/1005004866105669.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013468334760",
-   "title": "Silicone Protective Case for UGREEN Finetrack Tags Full Protection Soft Shockproof Anti-Scratch Cover for Luggage Pets Collar",
-   "shop": "Shop1103890325 Store",
-   "shop_url": "https://www.aliexpress.com/store/1103890325",
-   "price": "2.49",
-   "orig_price": "4.98",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc750e2e3b454346b7ba48448fa466d1p.png",
-   "url": "https://www.aliexpress.com/item/1005013468334760.html",
+   "id": "1005010043772398",
+   "title": "FLEXTAIL TINY PUMP 2X - 4kPa Portable Air Pump with Camping Light and 1600mAh Battery, Infaltion/Deflation/Lighting",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "44.09",
+   "orig_price": "94.71",
+   "rating": "96.7%",
+   "sold": 87,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd804b2e19ca04bca8b9e235c42c6f652S.jpg",
+   "url": "https://www.aliexpress.com/item/1005010043772398.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013559510941",
-   "title": "Protective Case for UGREEN FineTrack Anti-Scratch Soft Shell Dustproof Tracker Protector Cover for Pet Collar Dogs Cats Backpack",
-   "shop": "Game Seven Eleven Store",
-   "shop_url": "https://www.aliexpress.com/store/1105498939",
-   "price": "3.75",
-   "orig_price": "4.25",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sff8d9f4541814970be406c9b9568b64bj.jpg",
-   "url": "https://www.aliexpress.com/item/1005013559510941.html",
-   "commission": "8.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013134979140",
-   "title": "New Silicone Protective Case Anti-Scratch Dustproof Soft Shell Tracker Protector Cover for UGREEN FineTrack Dogs Cats Backpack",
-   "shop": "Shop1103100274 Store",
-   "shop_url": "https://www.aliexpress.com/store/1103100274",
-   "price": "2.09",
-   "orig_price": "4.36",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scd47be295b9f4d6c822dd48d75f04e97X.jpg",
-   "url": "https://www.aliexpress.com/item/1005013134979140.html",
+   "id": "1005006788470493",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "47.39",
+   "orig_price": "55.88",
+   "rating": "87.3%",
+   "sold": 5,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4dda90b48c004fe3a36ff7baa33ee101d.jpg",
+   "url": "https://www.aliexpress.com/item/1005006788470493.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013157294211",
-   "title": "For UGREEN FineTrack Duo Silicone Protective Case Pet Collar Holder Smart Tracker Cover Anti Lost Accessory Dog Cat Tracking",
-   "shop": "Aivora Gear Store",
-   "shop_url": "https://www.aliexpress.com/store/1105818147",
-   "price": "19.05",
-   "orig_price": "35.28",
-   "rating": null,
-   "sold": 1,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0cd25e85024445a79766eb62a26026dcS.jpg",
-   "url": "https://www.aliexpress.com/item/1005013157294211.html",
+   "id": "1005006043103858",
+   "title": "FLEXTAIL TINY PUMP X - Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pad, Air Bed Mattress",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "26.39",
+   "orig_price": "52.78",
+   "rating": "100.0%",
+   "sold": 3,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4b01a2c082014ecd961fac5a11ed15fev.png",
+   "url": "https://www.aliexpress.com/item/1005006043103858.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013148856775",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "3C ACCESSROIES BUYER Store",
-   "shop_url": "https://www.aliexpress.com/store/1104913183",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0cae0fbf7fa84fde8ba831bb1f73ac93O.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148856775.html",
+   "id": "1005008660277487",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "17.45",
+   "orig_price": "38.14",
+   "rating": "98.4%",
+   "sold": 343,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S807387a119f34ee4a1e288a757e38242w.jpg",
+   "url": "https://www.aliexpress.com/item/1005008660277487.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005012380117396",
-   "title": "UGREEN FineTrack Slim Smart Finder,1.7mm Ultra-Slim Wallet Finder,IP68 Waterproof Rechargeable  Tracker Card for Wallet",
-   "shop": "UGREEN Brand Store",
-   "shop_url": "https://www.aliexpress.com/store/1105534064",
-   "price": "59.59",
-   "orig_price": "71.80",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scb478004242f47a8bb416adc8a1fd2ceC.jpg",
-   "url": "https://www.aliexpress.com/item/1005012380117396.html",
+   "id": "1005006863287881",
+   "title": "FLEXTAIL ZERO PUMP - 30g Portable Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "45.19",
+   "orig_price": "80.70",
+   "rating": "85.7%",
+   "sold": 7,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6017ddec861c42cd8d0bafc5d3319592D.jpg",
+   "url": "https://www.aliexpress.com/item/1005006863287881.html",
    "commission": "7.0%",
-   "category": "Measurement & Analysis Instruments",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013173205461",
-   "title": "Silicone Protective Case Anti-Scratch Dustproof Soft Shell Tracker Protector Cover for UGREEN FineTrack for Pet Collar",
-   "shop": "Shop1105402209 Store",
-   "shop_url": "https://www.aliexpress.com/store/1105402209",
-   "price": "2.10",
-   "orig_price": "4.37",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf84f0c4a696a4d748afae5edb5ce56fdx.png",
-   "url": "https://www.aliexpress.com/item/1005013173205461.html",
+   "id": "1005008715877082",
+   "title": "FLEXTAIL TINY MATTRESS PLUS 2 – Ultralight 196cm Insulated Camping Mattress, 4 Seasons Compact Air Mattress for Camping, Hiking",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "125.69",
+   "orig_price": "274.74",
+   "rating": "98.0%",
+   "sold": 768,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sca7227fdb48a4075ba6ef6b57fde10800.jpg",
+   "url": "https://www.aliexpress.com/item/1005008715877082.html",
    "commission": "7.0%",
-   "category": "Smart Electronics",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005013148716930",
-   "title": "UGREEN CM816 45297 FineTrack Smart Finder Bluetooth Tracker Tag for Apple Find My iPhone iPad Mac",
-   "shop": "The River Esports Store",
-   "shop_url": "https://www.aliexpress.com/store/1104929465",
-   "price": "18.05",
-   "orig_price": "27.35",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd4ca7a7069bc44af8e0eebccb8bb8f6aL.jpg",
-   "url": "https://www.aliexpress.com/item/1005013148716930.html",
+   "id": "1005013225994510",
+   "title": "FLEXTAIL X VOLLYC Electric Air Pump Built-in 4000mAh Large Battery Portable Camping Air Pump for Air Bed Sleeping Pad Vacuum Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "36.79",
+   "orig_price": "84.29",
+   "rating": "93.3%",
+   "sold": 15,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa6ba9fd92bb8412482766dbb913db486y.png",
+   "url": "https://www.aliexpress.com/item/1005013225994510.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013609577800",
-   "title": "UGREEN FineTrack Mini Duo 2-in-1 Smart Bluetooth Item Locator Anti-Lost Tag for Bags Keys",
-   "shop": "Shop1105878130 Store",
-   "shop_url": "https://www.aliexpress.com/store/1105878130",
-   "price": "34.29",
-   "orig_price": "68.58",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd99ad691838f40ae8cd36d3d6b925054Z.jpg",
-   "url": "https://www.aliexpress.com/item/1005013609577800.html",
+   "id": "1005011616743614",
+   "title": "FLEXTAIL ZERO PUMP 2 - 28g Ultralight Camping Air Pump Electric Inflator for Sleeping Pads, 900mAh Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "48.76",
+   "orig_price": "123.07",
+   "rating": "96.3%",
+   "sold": 1088,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S98c565f31f6d4b18ad827b361e87cf531.jpg",
+   "url": "https://www.aliexpress.com/item/1005011616743614.html",
    "commission": "7.0%",
-   "category": "Portable Audio & Video",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
    ]
   },
   {
-   "id": "1005013136061130",
-   "title": "UGREEN CM816 45297 FineTrack Smart Finder Bluetooth Tracker Tag for Apple Find My iPhone iPad Mac",
-   "shop": "GearAce Store",
-   "shop_url": "https://www.aliexpress.com/store/1105506274",
-   "price": "18.05",
-   "orig_price": "27.35",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1c17750f372e47f9a054cb2b97519123H.jpg",
-   "url": "https://www.aliexpress.com/item/1005013136061130.html",
+   "id": "1005006086742813",
+   "title": "FLEXTAIL TINY PUMP X - Portable Air Pump, Mini Camping Pump with Light,  USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattre",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "26.19",
+   "orig_price": "52.38",
+   "rating": "93.3%",
+   "sold": 14,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3afc0827955a475ca9f3a786b078abd7m.jpg",
+   "url": "https://www.aliexpress.com/item/1005006086742813.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005012941489452",
-   "title": "For UGREEN FineTrack Protective Case for Pet Collar Dogs Cats Backpack Soft Silicone Anti Drop Shockproof Night Glow 4 Colors",
-   "shop": "UKE Store",
-   "shop_url": "https://www.aliexpress.com/store/5427188",
-   "price": "3.37",
-   "orig_price": "5.03",
+   "id": "1005012899438349",
+   "title": "FLEXTAIL TINY PUMP 2X - 4kPa Electric Air Pump, Portable Camping Pump for Air Beds Sleeping Pads Pool Floats Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "23.59",
+   "orig_price": "64.00",
    "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S957ff846c83042f5977eb4332d6c4829L.png",
-   "url": "https://www.aliexpress.com/item/1005012941489452.html",
-   "commission": "8.0%",
-   "category": "Smart Electronics",
-   "queries": [
-    "UGREEN FineTrack"
-   ]
-  },
-  {
-   "id": "1005013138673363",
-   "title": "UGREEN CM817 45298 FineTrack Slim Smart Finder Card Bluetooth Tracker for Apple Find My Wallet Luggage",
-   "shop": "The River Esports Store",
-   "shop_url": "https://www.aliexpress.com/store/1104929465",
-   "price": "29.29",
-   "orig_price": "44.38",
-   "rating": null,
-   "sold": 0,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd000e4e5d61349e2a0e51db11e935905m.jpg",
-   "url": "https://www.aliexpress.com/item/1005013138673363.html",
+   "sold": 30,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfe8b76fa083940d1a156f98bbe210431X.png",
+   "url": "https://www.aliexpress.com/item/1005012899438349.html",
    "commission": "7.0%",
-   "category": "Laptop Parts & Accessories",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump"
    ]
   },
   {
-   "id": "1005009864076431",
-   "title": "UGREEN FineTrack Smart Finder Compatible with   Find My (iOS Only) 2-Year Replaceable Battery Bluetooth Tracker Tags",
-   "shop": "T Brand Collection Store",
-   "shop_url": "https://www.aliexpress.com/store/1105053847",
-   "price": "17.05",
-   "orig_price": "22.14",
+   "id": "1005012039296497",
+   "title": "FLEXTAIL TINY PUMP 3X - 5kPa Ultra-Light Portable Air Pump, 5-Mode Camping Lamp, Multi-Purpose for Camping & Travel",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "35.34",
+   "orig_price": "47.50",
+   "rating": "100.0%",
+   "sold": 117,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sca17a7fd548946af868375ac50851418b.jpg",
+   "url": "https://www.aliexpress.com/item/1005012039296497.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005011603382267",
+   "title": "FLEXTAIL ZERO PUMP 2 - 28g Ultralight Camping Air Pump Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "48.29",
+   "orig_price": "87.80",
+   "rating": "90.0%",
+   "sold": 28,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S98c565f31f6d4b18ad827b361e87cf531.jpg",
+   "url": "https://www.aliexpress.com/item/1005011603382267.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013175622454",
+   "title": "FLEXTAIL X VOLLYC Electric Air Pump Built-in 4000mAh Large Battery Portable Camping Air Pump for Air Bed Sleeping Pad Vacuum Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "24.71",
+   "orig_price": "44.80",
+   "rating": null,
+   "sold": 6,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa6ba9fd92bb8412482766dbb913db486y.png",
+   "url": "https://www.aliexpress.com/item/1005013175622454.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005007340226531",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "26.24",
+   "orig_price": "96.85",
+   "rating": "98.1%",
+   "sold": 258,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S807387a119f34ee4a1e288a757e38242w.jpg",
+   "url": "https://www.aliexpress.com/item/1005007340226531.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007384046462",
+   "title": "FLEXTAIL TINY PUMP 2 / 2X - 4kPa Electric Air Pump, Portable Camping Pump for Air Beds Sleeping Pads Pool Floats Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "23.41",
+   "orig_price": "68.66",
+   "rating": "93.6%",
+   "sold": 899,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S46bb229726eb481e8156da2b9fb15f59K.jpg",
+   "url": "https://www.aliexpress.com/item/1005007384046462.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005009267378844",
+   "title": "FLEXTAIL ZERO PUMP Portable Electric Air Pump Air Cushion Pumping and Inflating Inflator for Camping with Rechargeable Battery",
+   "shop": "ZHXN Sports Outdoor Cycling Shop Store Store",
+   "shop_url": "https://www.aliexpress.com/store/1103895130",
+   "price": "70.79",
+   "orig_price": "114.18",
    "rating": null,
    "sold": 3,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfddd202b960e4b05bf54dc0d2550c0a9n.jpg",
-   "url": "https://www.aliexpress.com/item/1005009864076431.html",
-   "commission": "8.0%",
-   "category": "Packaging, Printing & Supporting Equipment",
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S98bee063591c4f28b5cc9937b0a96940F.jpg",
+   "url": "https://www.aliexpress.com/item/1005009267378844.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
    "queries": [
-    "UGREEN FineTrack"
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005005845310608",
+   "title": "FLEXTAIL TINY PUMP X - Portable Camping Air Pump with 1300mAh Battery Rechargeable for Pool Floats Air Mattress Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "22.36",
+   "orig_price": "39.22",
+   "rating": "98.8%",
+   "sold": 38,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4b01a2c082014ecd961fac5a11ed15fev.png",
+   "url": "https://www.aliexpress.com/item/1005005845310608.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005010188523582",
+   "title": "FLEXTAIL ZERO PUMP - 33g Camping Air Pump,  Portable Electric Inflator for Sleeping Pads, 1 Rechargeable Battery Included",
+   "shop": "YY Globease Store",
+   "shop_url": "https://www.aliexpress.com/store/1105078424",
+   "price": "45.59",
+   "orig_price": "54.27",
+   "rating": null,
+   "sold": 2,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbcd04dfc68f5481bbde01b236b314548Q.jpg",
+   "url": "https://www.aliexpress.com/item/1005010188523582.html",
+   "commission": "7.0%",
+   "category": "Portable Audio & Video",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005005963388167",
+   "title": "FLEXTAIL Portable Air Pump, Mini Camping Pump with Light, USB-C Charging, Ideal for Sleeping Pads, Air Bed Mattress, Vacuum Bags",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "21.15",
+   "orig_price": "42.30",
+   "rating": "98.4%",
+   "sold": 149,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9e674dfeb7344a5987048bd1becbde28g.jpg",
+   "url": "https://www.aliexpress.com/item/1005005963388167.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005007805770038",
+   "title": "FLEXTAIL TINY PUMP 2 / 2X - 4kPa Electric Air Pump, Portable Camping Pump for Air Beds Sleeping Pads Pool Floats Vacuum Bags",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "19.07",
+   "orig_price": "44.34",
+   "rating": "98.0%",
+   "sold": 945,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S46bb229726eb481e8156da2b9fb15f59K.jpg",
+   "url": "https://www.aliexpress.com/item/1005007805770038.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005012736877276",
+   "title": "FLEXTAIL TINY PUMP 2X - 4kPa Portable Air Pump with Camping Light and 1600mAh Battery, Infaltion/Deflation/Lighting",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "27.49",
+   "orig_price": "54.98",
+   "rating": "98.3%",
+   "sold": 116,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd804b2e19ca04bca8b9e235c42c6f652S.jpg",
+   "url": "https://www.aliexpress.com/item/1005012736877276.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005013054891548",
+   "title": "FLEXTAIL X VOLLYC Inflatable Travel Foot Rest with 700mAh Rechargeable Air Pump, Adjustable Height Leg Rest for Airplane, office",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "88.29",
+   "orig_price": "176.58",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S79898778c7c94bcea06a42cc5c7e1c7bz.png",
+   "url": "https://www.aliexpress.com/item/1005013054891548.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005009930553987",
+   "title": "FLEXTAIL X VOLLYC Electric Balloon Pump, Dual Nozzle Air Pump for Balloons, EU Plug Balloon Inflator for Party Decorations",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "44.99",
+   "orig_price": "89.98",
+   "rating": "0.0%",
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saca3e57b263b4adebb8591a9d4b9d82dv.jpg",
+   "url": "https://www.aliexpress.com/item/1005009930553987.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005013048015361",
+   "title": "FLEXTAIL X VOLLYC Inflatable Travel Foot Rest with 700mAh Rechargeable Air Pump, Adjustable Height Leg Rest for Airplane, office",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "63.79",
+   "orig_price": "115.98",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S79898778c7c94bcea06a42cc5c7e1c7bz.png",
+   "url": "https://www.aliexpress.com/item/1005013048015361.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005013256911102",
+   "title": "FLEXTAIL TINY PUMP 3X Mini Air Pump 300L/min 5kPa Rechargeable Portable Inflator Deflator with Camping Light 1050mAh",
+   "shop": "Outdoor Camping And Hiking Equipment Store Store",
+   "shop_url": "https://www.aliexpress.com/store/1104078026",
+   "price": "50.79",
+   "orig_price": "105.81",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se7c7a29d94a04612b4ca4191637688268.jpg",
+   "url": "https://www.aliexpress.com/item/1005013256911102.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012780566884",
+   "title": "FLEXTAIL X VOLLYC AirVortech Mini Inflation Pump, Replacement Air Capsule for EZY Travel Pillows",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "36.79",
+   "orig_price": "58.40",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4317256ad3764597ba20475bdba5d713Q.png",
+   "url": "https://www.aliexpress.com/item/1005012780566884.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005013047901397",
+   "title": "FLEXTAIL X VOLLYC Inflatable Travel Pillow with 700mAh Rechargeable Air Pump, Compact Portable Nap Pillow for Car,Train & Office",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "63.79",
+   "orig_price": "115.98",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1e3d9da4a8434b01b64e269fd83bfd06E.jpg",
+   "url": "https://www.aliexpress.com/item/1005013047901397.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005012046462918",
+   "title": "FLEXTAIL fishtail ZERO series outdoor ultra-lightweight air pump hiking portable charging and pumping air cushion mini air pump",
+   "shop": "1105422063-168 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105422063",
+   "price": "97.49",
+   "orig_price": "108.32",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5d2df06d0bd54c9ba3a1a78683971825q.jpg",
+   "url": "https://www.aliexpress.com/item/1005012046462918.html",
+   "commission": "7.0%",
+   "category": "Measurement & Analysis Instruments",
+   "queries": [
+    "FLEXTAIL air pump"
+   ]
+  },
+  {
+   "id": "1005009123282113",
+   "title": "5000Mah LED Camping Tent Light Rechargeable Outdoor Emergency Lighting Waterproof Portable Hanging Night Lamps Camping Lighting",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "16.33",
+   "orig_price": "35.50",
+   "rating": "98.0%",
+   "sold": 2601,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S134566b9e22548839c1887f7ba47a41dX.jpg",
+   "url": "https://www.aliexpress.com/item/1005009123282113.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007385472703",
+   "title": "DOTWISE 3000mAH Camping Portable Retro Lantern Camping Lighthouse Tent Light Lantern Decor Waterproof Outdoor Atmosphere lights",
+   "shop": "KRC CAMP Choice Store",
+   "shop_url": "https://www.aliexpress.com/store/1103413109",
+   "price": "20.67",
+   "orig_price": "72.34",
+   "rating": "97.4%",
+   "sold": 1180,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S79cf2ac7c1404e699220e98079e3d2cdN.png",
+   "url": "https://www.aliexpress.com/item/1005007385472703.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013240041378",
+   "title": "ONLY 22g Portable Camping Air Pump for Sleeping Pad Air Mattress Swimming Rings USB-C Powered Mattress Pump No Battery Built In",
+   "shop": "GotoRidge Store",
+   "shop_url": "https://www.aliexpress.com/store/1105840981",
+   "price": "13.62",
+   "orig_price": "33.21",
+   "rating": "93.0%",
+   "sold": 594,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sffc19964394f48eb9ec84ffba131a3f4i.jpg",
+   "url": "https://www.aliexpress.com/item/1005013240041378.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008417832122",
+   "title": "FLEXTAIL Vacuum Bag Set – 4pcs Durable Space-Saving Bags for Clothes and Bedding (Pump Required) – Ideal for Travel and Home",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "10.42",
+   "orig_price": "36.13",
+   "rating": "97.1%",
+   "sold": 399,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sddaeb6b68e6f48a0bfe1fcc7d47e2a60U.jpg",
+   "url": "https://www.aliexpress.com/item/1005008417832122.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010440422226",
+   "title": "WELLHIKE Outdoor Lighting Camping Lights Pinecone Light LED Multifunction Ambient Light Tent Canopy Flashlight",
+   "shop": "RiderSport Store",
+   "shop_url": "https://www.aliexpress.com/store/1102963290",
+   "price": "15.75",
+   "orig_price": "34.55",
+   "rating": "96.3%",
+   "sold": 234,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S97b1476f6a32413a8109f78fd23f8a1fR.jpg",
+   "url": "https://www.aliexpress.com/item/1005010440422226.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009533611809",
+   "title": "FLEXTAIL TINY SHOWER BUCKET/BAG - 20L Outdoor Water Reservoir with Built-in Pump, Automatic Dispensing, Two-Speed Adjustment",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "8.11",
+   "orig_price": "15.50",
+   "rating": "96.8%",
+   "sold": 300,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8b5d26c6c1244229aaee593dd216930y.jpg",
+   "url": "https://www.aliexpress.com/item/1005009533611809.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012663259605",
+   "title": "FLEXTAIL ZERO 56g Ultralight 2-in-1 Camping Lantern, 300LM IPX5 Waterproof LED Light for Hiking & Emergency",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "27.97",
+   "orig_price": "53.48",
+   "rating": "94.5%",
+   "sold": 235,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S04fed8140b6e46a593517ad07119ff41L.png",
+   "url": "https://www.aliexpress.com/item/1005012663259605.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012399474701",
+   "title": "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "29.10",
+   "orig_price": "76.90",
+   "rating": "97.8%",
+   "sold": 2117,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S89c7f052c48b4dbd91cf7799bb4d1f1eh.png",
+   "url": "https://www.aliexpress.com/item/1005012399474701.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005011616665585",
+   "title": "[HODRGEAR] Stuff Sack & Pillow UHMWPE Multifunctional Storage Bag Outdoor Camping Headrest 53g Ultralight Hikers",
+   "shop": "HODR Outdoor Gear Store",
+   "shop_url": "https://www.aliexpress.com/store/1104797503",
+   "price": "21.28",
+   "orig_price": "52.92",
+   "rating": "95.2%",
+   "sold": 923,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf4f556b57fb04ef68775bf57252a4ed2s.jpg",
+   "url": "https://www.aliexpress.com/item/1005011616665585.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012454621772",
+   "title": "Qunature Air Pump Inflatable Lightweight 5kpa Mini Air Pump Camping Self Inflating Mat Tube Pump Strong Air Pressure",
+   "shop": "ROCKBROS Cycling Equipment Store",
+   "shop_url": "https://www.aliexpress.com/store/1104163577",
+   "price": "16.75",
+   "orig_price": "42.36",
+   "rating": "89.1%",
+   "sold": 483,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S23ce2356a9b5480d9f7e13e0f0fadf124.jpg",
+   "url": "https://www.aliexpress.com/item/1005012454621772.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005006844109795",
+   "title": "FLEXTAIL Outdoor Camping Shower Portable Without Box Electric Shower Pump IPX7 Waterproof for Outdoor Shower, Car Wash, Dishwash",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "49.99",
+   "orig_price": "80.63",
+   "rating": "98.2%",
+   "sold": 2241,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S79938c6f4f9c48eba0d78fba410aed5cO.jpg",
+   "url": "https://www.aliexpress.com/item/1005006844109795.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007671578860",
+   "title": "FLEXTAIL Tiny Repel S 2-in-1 Mosquito Repellent Wireless Portable Mosquito Killer Repellent Outdoor Camping Fishing Hiking Tents",
+   "shop": "Outdoor Camping And Hiking Equipment Store Store",
+   "shop_url": "https://www.aliexpress.com/store/1104078026",
+   "price": "58.69",
+   "orig_price": "104.80",
+   "rating": "98.3%",
+   "sold": 118,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S25a113c5290c4739848851d67b793cc5C.jpg",
+   "url": "https://www.aliexpress.com/item/1005007671578860.html",
+   "commission": "8.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012396052080",
+   "title": "Outdoor Mini Flashlight with Infrared Side Light Rechargeable Keychain Light Travel Camping Carry Emergency Flashlight",
+   "shop": "Auto Park Store",
+   "shop_url": "https://www.aliexpress.com/store/1104987132",
+   "price": "5.55",
+   "orig_price": "12.07",
+   "rating": "87.1%",
+   "sold": 114,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S707b834821934585bf3392c93531f2b51.jpg",
+   "url": "https://www.aliexpress.com/item/1005012396052080.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009184868702",
+   "title": "FLEXTAIL Portable Shower Pump, IPX7 Waterproof Pump Head and Hose Set, Rechargeable Water Pump for Camping, Outdoor Shower",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "50.89",
+   "orig_price": "119.23",
+   "rating": "96.1%",
+   "sold": 982,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0bcba21bccd4ea3b3e10e2f1c26b44cc.jpg",
+   "url": "https://www.aliexpress.com/item/1005009184868702.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007859019460",
+   "title": "ML4 Outdoor Camping Lantern LED Camping USB Rechargeable Light, Free Tripod, Magnetic Base, 2 Lampshades",
+   "shop": "KRC CAMP Choice Store",
+   "shop_url": "https://www.aliexpress.com/store/1103413109",
+   "price": "15.31",
+   "orig_price": "49.29",
+   "rating": "91.7%",
+   "sold": 220,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4989f08fdc0745269b14d12eada3a03fd.jpg",
+   "url": "https://www.aliexpress.com/item/1005007859019460.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009260882516",
+   "title": "[HODRGEAR] STASHLITE Ultralight Composite Fabric Stuff Sack Lantern Diffuser 1.0oz Bag for Outdoor Camping Hiking",
+   "shop": "HODR Outdoor Gear Store",
+   "shop_url": "https://www.aliexpress.com/store/1104797503",
+   "price": "16.65",
+   "orig_price": "37.33",
+   "rating": "95.9%",
+   "sold": 747,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdb46725c9ea1424aae4a73d69dce9f86E.jpg",
+   "url": "https://www.aliexpress.com/item/1005009260882516.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005006446767846",
+   "title": "FLEXTAIL MAX SHOWER - Portable Electric Shower Pump IPX7 Waterproof for Outdoor Shower, Car Washing, Dishwashing, Pet Cleaning",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "21.49",
+   "orig_price": "23.92",
+   "rating": "95.7%",
+   "sold": 934,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S79938c6f4f9c48eba0d78fba410aed5cO.jpg",
+   "url": "https://www.aliexpress.com/item/1005006446767846.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007008624282",
+   "title": "FLEXTAIL Storage Box for MAX SHOWER",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "22.42",
+   "orig_price": "27.18",
+   "rating": "98.3%",
+   "sold": 201,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S367a4460c81a418086db870f8e168324o.png",
+   "url": "https://www.aliexpress.com/item/1005007008624282.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012524174001",
+   "title": "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
+   "shop": "Stone's Store",
+   "shop_url": "https://www.aliexpress.com/store/1103573332",
+   "price": "23.93",
+   "orig_price": "55.66",
+   "rating": "98.0%",
+   "sold": 4524,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S89c7f052c48b4dbd91cf7799bb4d1f1eh.png",
+   "url": "https://www.aliexpress.com/item/1005012524174001.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010259606095",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 25L Vacuum Storage Bag, 85% Compression, Waterproof Tear-Resistant Nylon for Camping, Travel",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "30.83",
+   "orig_price": "67.68",
+   "rating": "96.7%",
+   "sold": 333,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa603f119f39e4b31bc270a8dace8183dS.jpg",
+   "url": "https://www.aliexpress.com/item/1005010259606095.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012825351093",
+   "title": "1PC Specialised Spout for Hand-Brewed Coffee Outdoors – Stainless Steel Portable Drip Coffee Pot Spout Conversion Kit",
+   "shop": "Shop1105185945 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105185945",
+   "price": "1.48",
+   "orig_price": "3.30",
+   "rating": "81.6%",
+   "sold": 569,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2fa465697f5d42ff851bc66bff4a5383B.jpg",
+   "url": "https://www.aliexpress.com/item/1005012825351093.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008620934022",
+   "title": "Camping Gas Can Protective Cover CottonLinen Outdoor Gas Tank Case Anti-Fall FueCylinder Storage Bag Air Bottle WrapSleeve",
+   "shop": "Koala Outdoor Store",
+   "shop_url": "https://www.aliexpress.com/store/1102895080",
+   "price": "4.55",
+   "orig_price": "9.89",
+   "rating": "95.9%",
+   "sold": 162,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6885a5392b074005abd080e1fe3b76e3W.jpg",
+   "url": "https://www.aliexpress.com/item/1005008620934022.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010686254510",
+   "title": "WESTTUNE Portable Camping Lantern Rechargeable LED Picnic Lamp MINI Egg-Shaped Squeeze Silicone Light for Outdoor Cozy Ambience",
+   "shop": "WEST TUNE Outdoor Products Store",
+   "shop_url": "https://www.aliexpress.com/store/1102643657",
+   "price": "14.99",
+   "orig_price": "36.22",
+   "rating": "97.0%",
+   "sold": 5275,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se79e973acffd42f992b38b3bca7c3cbbu.jpg",
+   "url": "https://www.aliexpress.com/item/1005010686254510.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007102460684",
+   "title": "Shine Trip Outdoor Retro Smalldroplight, Campsite Lamp, Atmosphere Lamp, USB Charging Tent Light, LED Camping Hangling Lamp",
+   "shop": "Ant Travel Specialty Store",
+   "shop_url": "https://www.aliexpress.com/store/1103810022",
+   "price": "17.59",
+   "orig_price": "37.43",
+   "rating": "97.6%",
+   "sold": 544,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S42e4594a61c74e2093285c07762d1a8cJ.jpg",
+   "url": "https://www.aliexpress.com/item/1005007102460684.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008641427010",
+   "title": "5000Mah LED Camping Tent Light Rechargeable Outdoor Emergency Lighting Waterproof Portable Hanging Night Lamps Camping Lighting",
+   "shop": "KRC CAMP Choice Store",
+   "shop_url": "https://www.aliexpress.com/store/1103413109",
+   "price": "18.12",
+   "orig_price": "40.96",
+   "rating": "96.3%",
+   "sold": 2599,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S134566b9e22548839c1887f7ba47a41dX.jpg",
+   "url": "https://www.aliexpress.com/item/1005008641427010.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005011751240252",
+   "title": "FLEXTAIL X VOLLYC NANO BAG SET AT - Vacuum Compression Bags with -55kPa Suction, Space Saver Bags for Home Clothes Storage",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "8.92",
+   "orig_price": "17.67",
+   "rating": "93.0%",
+   "sold": 191,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S84759c95715849bea33bc608014d54d3x.png",
+   "url": "https://www.aliexpress.com/item/1005011751240252.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005012040233419",
+   "title": "FLEXTAIL TINY PUMP 3X - 5kPa Ultra-Light Portable Air Pump, 5-Mode Camping Light, Multi-Use for Camping & Travel",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "34.79",
+   "orig_price": "83.42",
+   "rating": "96.5%",
+   "sold": 2036,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa12878016bf84108ad365f51e141c767k.jpg",
+   "url": "https://www.aliexpress.com/item/1005012040233419.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005010368435049",
+   "title": "GOPEAK Pocket Mini Flashlight Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency 5050 Small Light",
+   "shop": "Chasewind Camping Store",
+   "shop_url": "https://www.aliexpress.com/store/1105051337",
+   "price": "5.19",
+   "orig_price": "11.60",
+   "rating": "93.2%",
+   "sold": 231,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sffe99f82455847899092c31f0381729dF.png",
+   "url": "https://www.aliexpress.com/item/1005010368435049.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008779689384",
+   "title": "GOPEAK Pocket Mini Flashlight Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency 5050 Small Light",
+   "shop": "GO PEAK Choice Store",
+   "shop_url": "https://www.aliexpress.com/store/1104094530",
+   "price": "5.14",
+   "orig_price": "12.79",
+   "rating": "96.9%",
+   "sold": 3555,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4b498fe7cf24de79f87e3cf94664a2ew.png",
+   "url": "https://www.aliexpress.com/item/1005008779689384.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009667828697",
+   "title": "FLEXTAIL TINY HELIO 600Z - Headlamp, Headlight with Replaceable 700mAh Battery for Outdoor Camping Fishing Hiking Riding (2025)",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "31.77",
+   "orig_price": "75.26",
+   "rating": "97.2%",
+   "sold": 1396,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S635eecf6bf0f441cbadcec23cc666af6P.jpg",
+   "url": "https://www.aliexpress.com/item/1005009667828697.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007434204282",
+   "title": "CAMPINGMOON Multi Functional Barbecue Accessories Carbon Clip, Thickened Stainless Steel Insulation Solid Wood Handle Clip",
+   "shop": "Ant Travel Specialty Store",
+   "shop_url": "https://www.aliexpress.com/store/1103810022",
+   "price": "21.60",
+   "orig_price": "73.27",
+   "rating": "97.2%",
+   "sold": 1479,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5b5108178a44f24b624fae66a53b955Z.jpg",
+   "url": "https://www.aliexpress.com/item/1005007434204282.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009734369875",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 25L Vacuum Storage Bag, Reusable Clothing Storage Bag, Travel Backpack Luggage Bag, 85% Compression",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "30.77",
+   "orig_price": "40.26",
+   "rating": "93.5%",
+   "sold": 346,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd715d4a9a976476e9f76590cb0ed0265G.jpg",
+   "url": "https://www.aliexpress.com/item/1005009734369875.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005005958570698",
+   "title": "FLEXTAIL LIGHT REPELLER - Electric Mosquito Repeller, Dual-Mode & Double-Sided, 165°C High Heat (Requires External Power)",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "20.05",
+   "orig_price": "40.10",
+   "rating": "92.9%",
+   "sold": 317,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9af77cdbc3f847108f5b679ed2a3d787m.jpg",
+   "url": "https://www.aliexpress.com/item/1005005958570698.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009742035275",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 25L Vacuum Storage Bag, Reusable Clothing Storage Bag, Travel Backpack Luggage Bag, 85% Compression",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "27.88",
+   "orig_price": "52.40",
+   "rating": "97.6%",
+   "sold": 233,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa603f119f39e4b31bc270a8dace8183dS.jpg",
+   "url": "https://www.aliexpress.com/item/1005009742035275.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005008744192209",
+   "title": "FLEXTAIL TINY BIKE PUMP ACS - Mini Electric Bike Pump, 130PSI Bicycle Tire Pump with Pressure Gauge and Built-in Taillight",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "63.29",
+   "orig_price": "125.56",
+   "rating": "93.9%",
+   "sold": 117,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S171c0c44362644b394357f67d1f947f4C.jpg",
+   "url": "https://www.aliexpress.com/item/1005008744192209.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013405143421",
+   "title": "FLEXTAIL Max Blast 300 Electric Air Duster Air Blower-150000RPM Super Power, Rechargeable 3-Gear Brushless Motor for Car/PC/Home",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "56.72",
+   "orig_price": "104.64",
+   "rating": "84.7%",
+   "sold": 338,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S95479aa1e2754936ac0dd8374bba4cd39.png",
+   "url": "https://www.aliexpress.com/item/1005013405143421.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007700990845",
+   "title": "TARKA Ultralight Lantern Stand Tabletop Light Holder Light Hanger Portable Detachable Outdoor Tourist Lighting Lantern Hangers",
+   "shop": "TARKA Store",
+   "shop_url": "https://www.aliexpress.com/store/1102911499",
+   "price": "6.99",
+   "orig_price": "24.03",
+   "rating": "94.0%",
+   "sold": 2243,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2447cde7cebc4edc886be737a5bc8504Y.jpg",
+   "url": "https://www.aliexpress.com/item/1005007700990845.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007499570041",
+   "title": "CAMPINGMOON Gas Cylinder Puncher, Easy to Seal Gas Cylinder, can be Hung on Keychain, Cancer Caliper",
+   "shop": "Ant Travel Specialty Store",
+   "shop_url": "https://www.aliexpress.com/store/1103810022",
+   "price": "4.95",
+   "orig_price": "16.50",
+   "rating": "96.6%",
+   "sold": 2312,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7d1eb11426114596ae0af0aa6ac58c2aW.jpg",
+   "url": "https://www.aliexpress.com/item/1005007499570041.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005011838321895",
+   "title": "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light",
+   "shop": "Shop1105051640 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105051640",
+   "price": "61.15",
+   "orig_price": "136.83",
+   "rating": "98.1%",
+   "sold": 3292,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S26d4def474de4981b8ef1b9110f8769fL.jpg",
+   "url": "https://www.aliexpress.com/item/1005011838321895.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013249920312",
+   "title": "Thous Winds Glowseeker Oil Lamp Portable Camping Lantern Outdoor Emotion Retro Lights Picnic Travel Backpack Camping Supplies",
+   "shop": "Thous Winds Official Store",
+   "shop_url": "https://www.aliexpress.com/store/911828113",
+   "price": "14.39",
+   "orig_price": "22.84",
+   "rating": "97.4%",
+   "sold": 312,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S07d31becc60949919927a803f32af8feN.jpg",
+   "url": "https://www.aliexpress.com/item/1005013249920312.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010657085506",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 18-55L Vacuum Storage Bag, Reusable Clothing Storage Bag, Travel Compression Backpack Luggage Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "17.99",
+   "orig_price": "31.02",
+   "rating": "96.1%",
+   "sold": 548,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd3f811ad29fb416fbeb53e81125f68f4h.jpg",
+   "url": "https://www.aliexpress.com/item/1005010657085506.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005007273815168",
+   "title": "Naturehike Portable Light Camping Torch Waterproof Outdoor Lighting Type-C Ambient Light Hiking Ultralight Flashlight Tent Light",
+   "shop": "Naturehike Official Store",
+   "shop_url": "https://www.aliexpress.com/store/2878009",
+   "price": "21.41",
+   "orig_price": "24.77",
+   "rating": "94.4%",
+   "sold": 75,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S58e7e3ad231a4302ac1363f7d2ab85e8h.jpg",
+   "url": "https://www.aliexpress.com/item/1005007273815168.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005006851103184",
+   "title": "FLEXTAIL EVO REPELLER - Mosquito Repeller with 3000 LM Camping Lantern and Power Bank Function for Camping (Mats Not Included)",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "46.99",
+   "orig_price": "114.61",
+   "rating": "90.0%",
+   "sold": 28,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb4daf708d29a4948b844ac85b1653d14B.jpg",
+   "url": "https://www.aliexpress.com/item/1005006851103184.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013068050402",
+   "title": "Stainless Steel Lightweight Folding Wood Stove Mini Portable Backpacking Travel Picnic HikingWood Burning Firebox",
+   "shop": "Shop1105568095 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105568095",
+   "price": "50.69",
+   "orig_price": "120.69",
+   "rating": null,
+   "sold": 3,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7883151993634fde8f60687ec46e1e757.jpg",
+   "url": "https://www.aliexpress.com/item/1005013068050402.html",
+   "commission": "8.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009620855482",
+   "title": "FLEXTAIL TINY HELIO 600Z 2025 - Bright Beam Headlamp, USB-C Rechargeable LED Headlight for Camping Fishing Hiking Bike Riding",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "28.01",
+   "orig_price": "55.56",
+   "rating": "100.0%",
+   "sold": 69,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8897332a65b74bb7b1d50d0d8f30a96fC.jpg",
+   "url": "https://www.aliexpress.com/item/1005009620855482.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012596703253",
+   "title": "1200mAh MINI Camping Light Outdoor Tent Light Lantern Emergency Light Portable LED Flashlight USB Charging 6 Lighting Modes",
+   "shop": "Shop1105051640 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105051640",
+   "price": "15.25",
+   "orig_price": "30.50",
+   "rating": "100.0%",
+   "sold": 4,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1203295212f74a97a5a08c1fe06b69afC.jpg",
+   "url": "https://www.aliexpress.com/item/1005012596703253.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005007473204650",
+   "title": "CAMPINGMOON TC-ST Stainless Steel 1/4 Camera Stand Foldable Aluminum Gas Tank Camping Atmosphere Light Stand Tripod",
+   "shop": "Ant Travel Specialty Store",
+   "shop_url": "https://www.aliexpress.com/store/1103810022",
+   "price": "15.19",
+   "orig_price": "50.63",
+   "rating": "98.5%",
+   "sold": 99,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5169cb80fa634fa0ab00dfb88ffe30971.jpg",
+   "url": "https://www.aliexpress.com/item/1005007473204650.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005011728656528",
+   "title": "GOPEAK 5050 Small Light Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency Pocket Mini Flashlight",
+   "shop": "MOUNTAIN SHINE Store",
+   "shop_url": "https://www.aliexpress.com/store/1105351039",
+   "price": "7.19",
+   "orig_price": "15.77",
+   "rating": "97.8%",
+   "sold": 118,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S75a82309310346fd98192fee0591e729K.png",
+   "url": "https://www.aliexpress.com/item/1005011728656528.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012374872605",
+   "title": "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Camping Hiking Emergency",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "33.01",
+   "orig_price": "41.05",
+   "rating": "96.4%",
+   "sold": 87,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S89c7f052c48b4dbd91cf7799bb4d1f1eh.png",
+   "url": "https://www.aliexpress.com/item/1005012374872605.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005009622032001",
+   "title": "FLEXTAIL ZERO FLASHLIGHT - Tactical Flashlight with EDC Case, Up to 1200 LM, 7 Light Modes, Type-C Charging, IP67 Waterproof",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "42.59",
+   "orig_price": "78.87",
+   "rating": "86.7%",
+   "sold": 12,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S51e2842b11684ab8af43a876b95184579.jpg",
+   "url": "https://www.aliexpress.com/item/1005009622032001.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013308036666",
+   "title": "**GOPEAK 5050 Small Light Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency Pocket Mini Flashlight",
+   "shop": "Shop1105693217 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105693217",
+   "price": "3.09",
+   "orig_price": "6.90",
+   "rating": "50.0%",
+   "sold": 10,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd76f85eb5ff041f28104f1a1d10c0982x.jpg",
+   "url": "https://www.aliexpress.com/item/1005013308036666.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012347402295",
+   "title": "ShineTrip 05 Series 19‑Light Multi‑function Ambient Light Tail Magnetic Rotatable Portable Dimmable Outdoor Camping LED Light",
+   "shop": "Wild Vibe Outdoor Store",
+   "shop_url": "https://www.aliexpress.com/store/1104567217",
+   "price": "14.99",
+   "orig_price": "32.19",
+   "rating": "100.0%",
+   "sold": 18,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S77e06f9d6beb41068a032756eaa7f3e2a.jpg",
+   "url": "https://www.aliexpress.com/item/1005012347402295.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010024762884",
+   "title": "Outdoor Flashlight EDC Portable Mini Light Camping Hiking Safety Flashing Light For Tactical Vest 25mm Backpack Strap",
+   "shop": "Morning Light Tactical Gear Store",
+   "shop_url": "https://www.aliexpress.com/store/1104952342",
+   "price": "14.63",
+   "orig_price": "34.88",
+   "rating": "99.4%",
+   "sold": 67,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd596fc369d354e499ac19f8298b37623p.jpg",
+   "url": "https://www.aliexpress.com/item/1005010024762884.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012478143168",
+   "title": "Naturehike IPX4 Outdoor Portable Camping Light Outdoor Lighting Type-C Ambient light Hiking Ultralight Flashlight Tent light",
+   "shop": "Naturehike Flagship Camping Store",
+   "shop_url": "https://www.aliexpress.com/store/1105348480",
+   "price": "19.28",
+   "orig_price": "45.05",
+   "rating": "94.3%",
+   "sold": 67,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scefa7a77bf6343798d599ef917e37a794.jpg",
+   "url": "https://www.aliexpress.com/item/1005012478143168.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013063866932",
+   "title": "For FLEXTAIL TinyRepel Mosquito Repellent Lantern, Camping Light with Power Bank & IPX5 for Outdoor",
+   "shop": "Shop1105696162 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105696162",
+   "price": "121.89",
+   "orig_price": "150.48",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se34c443629d54e47a80907a345a24c44k.jpg",
+   "url": "https://www.aliexpress.com/item/1005013063866932.html",
+   "commission": "10.0%",
+   "category": "Accessories & Parts",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005005537795213",
+   "title": "FLEXTAIL Camping Lantern with 9600mAh Battery, 3-in-1 Vintage Rechargeable Camping Light for Patio, Hiking, Camping, Bedroom",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "65.79",
+   "orig_price": "115.42",
+   "rating": "85.0%",
+   "sold": 4,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sed8fc2f8cbed444dbd71d0969617093aE.png",
+   "url": "https://www.aliexpress.com/item/1005005537795213.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012350024962",
+   "title": "FLEXTAIL X VOLLYC Electric Cleaning Brush - Cordless Power Scrubber, IPX8 Waterproof, 120Min Runtime for Bathroom, Kitchen & car",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "39.69",
+   "orig_price": "76.27",
+   "rating": null,
+   "sold": 35,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S837f040c28fc43beac9971676439ededs.jpg",
+   "url": "https://www.aliexpress.com/item/1005012350024962.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012847717333",
+   "title": "ShineTrip 38 Light USB Rechargeable Camping Lamp Rotatable Bottom Magnetic Tent Atmosphere Light 1000mAh Mini LED Flashlights",
+   "shop": "DOTWISE Store",
+   "shop_url": "https://www.aliexpress.com/store/1102846120",
+   "price": "16.15",
+   "orig_price": "33.65",
+   "rating": "100.0%",
+   "sold": 6,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6860035ee1d34a2da7ffdf12bfbd9e7aa.jpg",
+   "url": "https://www.aliexpress.com/item/1005012847717333.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008535574872",
+   "title": "FLEXTAIL LIGHT REPELLER - Portable Mosquito Repeller with Dual Modes, IPX4 Waterproof, Without Repellent Mats",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "19.89",
+   "orig_price": "22.40",
+   "rating": "93.3%",
+   "sold": 23,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S972f4731a20c4f9ca691a44b7a32b34ex.jpg",
+   "url": "https://www.aliexpress.com/item/1005008535574872.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005008969472138",
+   "title": "3000Mah Camping Lantern Mini Led Falshlight USB Rechargeable G3 Lighthouse Micro Flash Goalzero Camping Light of The Same Style",
+   "shop": "KRC CAMP Store",
+   "shop_url": "https://www.aliexpress.com/store/1103320414",
+   "price": "20.15",
+   "orig_price": "22.39",
+   "rating": "97.3%",
+   "sold": 30,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S52ff1bb79af64a91b491d2184f84b8d0w.jpg",
+   "url": "https://www.aliexpress.com/item/1005008969472138.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009566551585",
+   "title": "FLEXTAIL TINY HELIO 600Z - Headlamp, Headlight with Replaceable 700mAh Battery for Outdoor Camping Fishing Running(2025 Version)",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "35.79",
+   "orig_price": "42.79",
+   "rating": "100.0%",
+   "sold": 5,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S050ad56c39e04781995ee45a64c072f4e.jpg",
+   "url": "https://www.aliexpress.com/item/1005009566551585.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013087672455",
+   "title": "1PC 25years Luminous Tube Pendants Paracord Beads Key Ring Necklace Pendants Zipper Head Luminous Night Light Outdoor EDC Tool",
+   "shop": "Best Outdoor Goods Store",
+   "shop_url": "https://www.aliexpress.com/store/1100187214",
+   "price": "13.59",
+   "orig_price": "16.99",
+   "rating": "100.0%",
+   "sold": 49,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9055b83b560c4e8fa425f2ba68bccae72.jpg",
+   "url": "https://www.aliexpress.com/item/1005013087672455.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013296867493",
+   "title": "**GOPEAK 5050 Small Light Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency Pocket Mini Flashlight",
+   "shop": "Shop1105389616 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105389616",
+   "price": "3.19",
+   "orig_price": "6.93",
+   "rating": "100.0%",
+   "sold": 9,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd26c92055d2a439a987605aae88567b2i.jpg",
+   "url": "https://www.aliexpress.com/item/1005013296867493.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009385833174",
+   "title": "FLEXTAIL ZERO FLASHLIGHT - 47g 1200 Lumens EDC Flashlight, 7 Light Modes with Replaceable and Rechargeable Battery",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "33.59",
+   "orig_price": "63.38",
+   "rating": "80.0%",
+   "sold": 4,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5a66cd07bbb3426594d354a41761333fO.jpg",
+   "url": "https://www.aliexpress.com/item/1005009385833174.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012371003642",
+   "title": "FLEXTAIL X VOLLYC MAX BLAST 200H - Powerful Air Blower 180G Wind Pressure 110000RPM Warm Air Dust Blowing Keyboard Cleaning",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "49.49",
+   "orig_price": "91.64",
+   "rating": "100.0%",
+   "sold": 64,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S28dcd457727c40b481ca30ccd70e32809.png",
+   "url": "https://www.aliexpress.com/item/1005012371003642.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern",
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005009722555680",
+   "title": "‌1.2L Ultralight Cuben DCF 11g Waterproof Travel Organizer Toiletry Bag For Camping/Hiking, Compact Cosmetic Pouch with Hanging",
+   "shop": "Nomadix Outdoors Store",
+   "shop_url": "https://www.aliexpress.com/store/1104721265",
+   "price": "50.99",
+   "orig_price": "101.98",
+   "rating": "80.0%",
+   "sold": 4,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S67d8aba9cd07496bb92e4c94b9683fedb.jpeg",
+   "url": "https://www.aliexpress.com/item/1005009722555680.html",
+   "commission": "8.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005010390687479",
+   "title": "3000mAh 38-KT 38 Light 38 Explore USB Rechargeable Camping Lanterns Outdoor Tent Lamp Powerful Mini LED Flashlights Camp Light",
+   "shop": "Chasewind Camping Store",
+   "shop_url": "https://www.aliexpress.com/store/1105051337",
+   "price": "3.05",
+   "orig_price": "6.54",
+   "rating": "93.9%",
+   "sold": 76,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3b209310c6f046a19f96c1564cef459f1.png",
+   "url": "https://www.aliexpress.com/item/1005010390687479.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013097761424",
+   "title": "Rechargeable LED Solar Camping Lantern Dimmable Long-Lasting Portable Camping Light Waterproof IP54 Solar Emergency Light",
+   "shop": "YUNII Store",
+   "shop_url": "https://www.aliexpress.com/store/1102924009",
+   "price": "10.90",
+   "orig_price": "24.43",
+   "rating": "100.0%",
+   "sold": 77,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6e8726bd2bcd45e0aeb61ea089574e99d.png",
+   "url": "https://www.aliexpress.com/item/1005013097761424.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005003842961715",
+   "title": "Naturehike Lantern Hanger Outdoor Travel Lamp Stand Folding Tent Light Pole Lamp Hanger Portable Camping Equipment Lantern Stand",
+   "shop": "Naturehike Official Store",
+   "shop_url": "https://www.aliexpress.com/store/2878009",
+   "price": "7.08",
+   "orig_price": "7.66",
+   "rating": "88.4%",
+   "sold": 78,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sad5a3cacee6641daba2f91ff7075cac2L.jpg",
+   "url": "https://www.aliexpress.com/item/1005003842961715.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005009049723679",
+   "title": "Gooutspringhill Mini Incense Burner 1.5 Outdoor Firewood Stove Desktop Viewing Stove Portable Folding Camping Travel Stove",
+   "shop": "ULTRA SPORT Store",
+   "shop_url": "https://www.aliexpress.com/store/1102080431",
+   "price": "17.25",
+   "orig_price": "34.50",
+   "rating": "0.0%",
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3c878c4463744574a49e7de7866b8fa8s.jpg",
+   "url": "https://www.aliexpress.com/item/1005009049723679.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005013308178379",
+   "title": "*=*GOPEAK 5050 Small Light Outdoor Key Clip Cap Ambient Led Long Endurance Disaster Relief Emergency Pocket Mini Flashlight",
+   "shop": "Shop1105059381 Store",
+   "shop_url": "https://www.aliexpress.com/store/1105059381",
+   "price": "3.19",
+   "orig_price": "6.93",
+   "rating": "100.0%",
+   "sold": 8,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8e21c6d005b646cea15272bd48cbe95d4.jpg",
+   "url": "https://www.aliexpress.com/item/1005013308178379.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL camping lantern"
+   ]
+  },
+  {
+   "id": "1005012251212979",
+   "title": "Naturehike Mini Electric Inflatable Pump Portable Wireless Air Compressor Inflator Deflate Air Pumps Hiking Camping Equipment",
+   "shop": "Naturehike Flagship Camping Store",
+   "shop_url": "https://www.aliexpress.com/store/1105348480",
+   "price": "19.78",
+   "orig_price": "48.77",
+   "rating": "91.9%",
+   "sold": 254,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4ff948ef77a94e7b807ba2739004cf1eB.jpg",
+   "url": "https://www.aliexpress.com/item/1005012251212979.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005010295948202",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 25L Vacuum Storage Bag, Reusable Clothing Storage Bag, Travel Backpack Luggage Bag, 85% Compression",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "17.99",
+   "orig_price": "31.02",
+   "rating": "91.5%",
+   "sold": 271,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa603f119f39e4b31bc270a8dace8183dS.jpg",
+   "url": "https://www.aliexpress.com/item/1005010295948202.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005010775469144",
+   "title": "FLEXTAIL X VOLLYC NANO BAG SET - Vacuum Bags with Electric Pump, Vacuum Compression Sealer Bag for Home Clothes Storage, Travel",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "9.89",
+   "orig_price": "17.66",
+   "rating": "94.8%",
+   "sold": 1296,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S195db18435684bbba26f84e770bc7989e.jpg",
+   "url": "https://www.aliexpress.com/item/1005010775469144.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005008744109469",
+   "title": "FLEXTAIL TINY SHOWER - Outdoor Camping Shower Portable Electric Shower Pump IPX7 Waterproof for Outdoor and Home Cleaning",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "39.19",
+   "orig_price": "72.57",
+   "rating": "93.5%",
+   "sold": 160,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0bcba21bccd4ea3b3e10e2f1c26b44cc.jpg",
+   "url": "https://www.aliexpress.com/item/1005008744109469.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005011657323391",
+   "title": "Qunature Air Pump Inflatable Outdoor Electric Inflator for Mattresses Pillows 3-mode lighting Portable Lightweight Pump",
+   "shop": "ROCKBROS Cycling Equipment Store",
+   "shop_url": "https://www.aliexpress.com/store/1104163577",
+   "price": "15.55",
+   "orig_price": "37.07",
+   "rating": "91.8%",
+   "sold": 134,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sef3aa86b36aa41b1bab8eb47deaefeeff.jpg",
+   "url": "https://www.aliexpress.com/item/1005011657323391.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013247386675",
+   "title": "22g Mini Air Pump for Sleeping Pad & Inflatables, 4.2kPa 350L/min High Speed, USB-C Powered Air Mattress Pump for Swimming Rings",
+   "shop": "GotoRidge Store",
+   "shop_url": "https://www.aliexpress.com/store/1105840981",
+   "price": "13.62",
+   "orig_price": "33.21",
+   "rating": "90.9%",
+   "sold": 95,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8b8f9210411a4b00970f7dde017c3203t.jpg",
+   "url": "https://www.aliexpress.com/item/1005013247386675.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013505240272",
+   "title": "FLEXTAIL Max Blast 200 Electric Air Duster Air Blower-110000RPM Super Power, Rechargeable 3-Gear Brushless Motor for Home/Car/PC",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "38.68",
+   "orig_price": "67.81",
+   "rating": null,
+   "sold": 34,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0637c49a5d6d4574bb8476ddd08eae46n.png",
+   "url": "https://www.aliexpress.com/item/1005013505240272.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005010776462560",
+   "title": "Aerogogo Giga Pump Air Ultra Light 28g Portable Mini Air Pump Camping Self Inflating Mat Tube Pump 1oz Ultra Small Wireless Inflator Backpacking Water Play",
+   "shop": "Aerogogo Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102246034",
+   "price": "40.15",
+   "orig_price": "54.54",
+   "rating": "96.1%",
+   "sold": 279,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd99f84887fe5411bb7d9e6cdf4641863f.jpg",
+   "url": "https://www.aliexpress.com/item/1005010776462560.html",
+   "commission": "8.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013315608428",
+   "title": "FLEXTAIL Blast Air Electric Air Duster Air Blower-130000RPM Super Power, Rechargeable 3-Gear Brushless Motor for Car/PC/Home",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/912314105",
+   "price": "77.99",
+   "orig_price": "134.47",
+   "rating": "20.0%",
+   "sold": 14,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S853c50d0c92b4f9f9b05a59084355b96k.png",
+   "url": "https://www.aliexpress.com/item/1005013315608428.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005010675331342",
+   "title": "FLEXTAIL X VOLLYC EZYPACK - 18-55L Vacuum Storage Bag, Reusable Clothing Storage Bag, Travel Compression Backpack Luggage Bag",
+   "shop": "flextailgear Official Store",
+   "shop_url": "https://www.aliexpress.com/store/1102616020",
+   "price": "20.09",
+   "orig_price": "49.97",
+   "rating": "95.8%",
+   "sold": 403,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd3f811ad29fb416fbeb53e81125f68f4h.jpg",
+   "url": "https://www.aliexpress.com/item/1005010675331342.html",
+   "commission": "7.0%",
+   "category": "Camping & Hiking",
+   "queries": [
+    "FLEXTAIL pump lantern"
+   ]
+  },
+  {
+   "id": "1005013541037041",
+   "title": "WATERSY 500ml Stainless Steel Vacuum Flask, Insulated Thermos Cup for Coffee & Water, Double Wall Thermal Bottle for Sports",
+   "shop": "Novora Venturem Store",
+   "shop_url": "https://www.aliexpress.com/store/1105892516",
+   "price": "16.29",
+   "orig_price": "45.25",
+   "rating": null,
+   "sold": 0,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbec711d69fe54d4db39b9b55ad7400d22.jpg",
+   "url": "https://www.aliexpress.com/item/1005013541037041.html",
+   "commission": "7.0%",
+   "category": "Kitchen,Dining & Bar",
+   "queries": [
+    "WATERSY thermos bottle",
+    "WATERSY vacuum bottle 500ml"
+   ]
+  },
+  {
+   "id": "1005009894732762",
+   "title": "WATERSY 500ml Insulated Water Bottle, Stainless Steel Thermal Leakproof Flask, BPA-Free Double Walled Vacuum Bottle for Sports",
+   "shop": "Watersy Brand Store",
+   "shop_url": "https://www.aliexpress.com/store/1103779380",
+   "price": "14.85",
+   "orig_price": "29.70",
+   "rating": "96.9%",
+   "sold": 111,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sad15f9de4cbd4fc1baf0522967992a4fK.jpg",
+   "url": "https://www.aliexpress.com/item/1005009894732762.html",
+   "commission": "7.0%",
+   "category": "Kitchen,Dining & Bar",
+   "queries": [
+    "WATERSY vacuum bottle 500ml"
+   ]
+  },
+  {
+   "id": "1005008471006818",
+   "title": "WATERSY 500ml Stainless Steel Water Bottle Insulated Vacuum Flask Double Wall Thermal Cup Keep Cold Hot Sports Kettle",
+   "shop": "Watersy Bottle Store",
+   "shop_url": "https://www.aliexpress.com/store/1103844857",
+   "price": "13.45",
+   "orig_price": "26.90",
+   "rating": "96.4%",
+   "sold": 542,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc6899aa969db4eebaddb623c5037691ff.jpg",
+   "url": "https://www.aliexpress.com/item/1005008471006818.html",
+   "commission": "7.0%",
+   "category": "Kitchen,Dining & Bar",
+   "queries": [
+    "WATERSY vacuum bottle 500ml"
+   ]
+  },
+  {
+   "id": "1005010030931968",
+   "title": "WATERSY 500ml Stainless Steel Vacuum Flask, Insulated Thermos Cup for Coffee & Water, Double Wall Thermal Bottle for Sports",
+   "shop": "Watersy Bottle Store",
+   "shop_url": "https://www.aliexpress.com/store/1103844857",
+   "price": "14.33",
+   "orig_price": "28.66",
+   "rating": "96.7%",
+   "sold": 193,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6ec7c2385cd9429cace92e10663ec9bdD.jpg",
+   "url": "https://www.aliexpress.com/item/1005010030931968.html",
+   "commission": "7.0%",
+   "category": "Kitchen,Dining & Bar",
+   "queries": [
+    "WATERSY vacuum bottle 500ml"
+   ]
+  },
+  {
+   "id": "1005007037046898",
+   "title": "500ML Stainless Steel Thermal Bottle Double Vacuum Flasks Insulated Cup for Hot and Cold Sports Water Bottle Car Travel Mug",
+   "shop": "Watersy Brand Store",
+   "shop_url": "https://www.aliexpress.com/store/1103779380",
+   "price": "13.55",
+   "orig_price": "27.11",
+   "rating": "94.6%",
+   "sold": 88,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2c5c6337bf1c43f591975d36af88caddc.jpg",
+   "url": "https://www.aliexpress.com/item/1005007037046898.html",
+   "commission": "7.0%",
+   "category": "Kitchen,Dining & Bar",
+   "queries": [
+    "WATERSY vacuum bottle 500ml"
    ]
   }
  ]
